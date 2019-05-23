@@ -151,7 +151,9 @@ p {
 #header-menu a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 12px;
+  /* font-size: 12px; */
+  font-size: 0.8vw;
+  /* font-weight: bold; */
 }
 
 #header-menu a:hover {

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="keywords" content="キーワード" />
+<meta name="description" content="紹介文" />
+<title>学位論文 - 南野研@YNU</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+<!-- メイン -->
+
+<div id="main">
+
+
+<!-- ヘッダー -->
+
+<div id="header">
+
+<table border="0" cellpadding="0" cellspacing="0" width="800">
+  <tr>
+    <td><h2>ニュートリノ・素粒子物理学実験<br>南野研究室＠横浜国立大学(YNU) 理工学部・大学院工学研究院</h2></td>
+    <!--
+    <td><div id="table-left"><h2>素粒子物理学研究室＠横浜国立大学(YNU)</h2></div></td>
+    <td><div id="table-right"><a>〒240-8501 横浜市保土ヶ谷区常盤台79-5理学研究棟408号室</a><br />
+	<a>Tel: 045-339-4182</a></div></td>
+    -->
+  </tr>
+</table>
+
+</div>
+
+<div id="header-menu">
+   <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="research.html">研究</a></li>
+    <li><a href="members.html">メンバー</a></li>
+    <li><a href="thesis.html">学位論文</a></li>
+    <li><a href="publications.html">論文</a></li>
+    <li><a href="presentations.html">発表</a></li>
+<!--    <li><a href="annual.html">年次報告</a></li>  -->
+    <li><a href="news.html">ニュース</a></li>
+    <li><a href="album.html">アルバム</a></li>
+<!---    <li><a href="sports.html">スポーツ</a></li>  --->
+    <li><a href="link.html">リンク</a></li>
+    <li><a href="access.html">アクセス</a></li>
+    <li><a href="index-e.html"><b>English</b></a></li>
+   </ul>
+</div>
+
+<center>
+<!---  <img src="img/theses.jpg" width = "380px" alt="" class="photo01" border="0" /> --->
+  <img src="img/theses.jpg" width = "300px" alt="" class="photo01" border="0" />
+</center>
+
+<!-- ヘッダー終わり -->
+
+
+<!-- コンテンツ -->
+
+<!-- メインコンテンツ -->
+
+<div id="container">
+  <div id="contents">
+
+<h2>2018年度</h2>
+<p><b>卒業論文</b></p>
+<br>
+　・片山 優菜　<a href="thesis/18ykatayama.pdf">J-PARC E69実験(WAGASCIプロジェクト)におけるエレクトロニクスの性能試験</a>
+<br>
+<br>
+　・佐々木 遼太　<a href="thesis/18rsasaki.pdf">液体シンチレータと比例計数管を用いた中性子バックグラウンドの測定とその理解</a>
+<br>
+<br>
+　・谷原 祐史　<a href="thesis/18ytanihara.pdf">J-PARC E71実験（NINJAプロジェクト）へ向けた新型原子核乾板の製作及びCERNビーム照射実験による既存の原子核乾板の性能評価</a>
+<br>
+<br>
+　・山本 健介　<a href="thesis/18kyamamoto.pdf">J-PARC E69実験(WAGASCIプロジェクト)における高速応答シンチレータの性能評価とシミュレーションによる荷電粒子の運動方向同定能力の評価</a>
+<br>
+<br>
+<br>
+<h2>2017年度</h2>
+<p><b>卒業論文</b></p>
+<br>
+　・淺田 祐希　<a href="thesis/17yasada.pdf">J-PARC T59実験(WAGASCIプロジェクト)における横方向ミューオン検出器sideMRDの建設及び宇宙線を用いた性能評価試験</a>
+<br>
+<br>
+　・岡本 浩大　<a href="thesis/17kokamoto.pdf">J-PARC T59実験(WAGASCI)の横方向ミューオン検出器用シンチレータの性能評価</a>
+<br>
+<br>
+　・松下 昂平　<a href="thesis/17kmatsushita.pdf">J-PARC T59実験におけるフロントエンドエレクトロニクスの性能試験およびニュートリノ反応における原子核効果のシミュレーション研究</a>
+<br>
+<br>
+　・山口 大輔　<a href="thesis/17dyamaguchi.pdf">J-PARC T59実験(WAGASCI プロジェクト)横方向ミューオン検出器のデータ収集システムの構築及びフロントエンドエレクトロニクスの性能試験</a>
+<br>
+
+
+
+<br />
+
+
+  </div>
+
+<!-- メインコンテンツ終わり -->
+
+
+</div>
+
+<!-- コンテンツ終わり -->
+
+<!-- フッター -->
+
+<div id="footer">
+南野彰宏<br>
+〒240-8501 横浜市保土ヶ谷区常盤台79-5横浜国立大学理学研究棟408号室<br>
+E-mail. minamino-akihiro-nx[at]ynu.ac.jp<br>
+Copyright (C) 2017 YNU neutrino group All Rights Reserved.　design by <a href="http://tempnate.com/">tempnate</a>
+</div>
+
+<!-- フッター終わり -->
+
+</div>
+
+<!-- メイン終わり -->
+
+</body>
+</html>

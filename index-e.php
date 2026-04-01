@@ -35,13 +35,13 @@
 
     <div id="header-menu">
       <ul>
-        <li><a href="index-e.html">HOME</a></li>
+        <li><a href="index-e.php">HOME</a></li>
         <li><a href="research-e.html">Researches</a></li>
         <li><a href="members-e.html">Members</a></li>
         <li><a href="thesis-e.html">Theses</a></li>
         <li><a href="publications-e.html">Papers</a></li>
-        <li><a href="news-e.html">News</a></li>
-        <li><a href="index.html"><b>Japanease</b></a></li>
+        <li><a href="news-e.php">News</a></li>
+        <li><a href="index.php"><b>Japanease</b></a></li>
       </ul>
     </div>
 
@@ -83,16 +83,23 @@
 
         <h2>Latest News</h2>
 
-        <p>
-          2025.05.01&emsp; <a href="members-e.html">Members</a> are updated.<br />
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+        <?php
+        $lines = file('news_content-e.html'); // ファイルを1行ずつ配列で取得
 
+        $count = 0;
+        foreach ($lines as $line) {
+          echo $line;
 
-        <p>
-          2025.04.01&emsp; <a href="members-e.html">Christophe Bronner</a> joined us as an assistant professor.<br />
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+          // </p> が出たら1件とカウント
+          if (strpos($line, '</p>') !== false) {
+            $count++;
+          }
+
+          if ($count >= 3) {
+            break;
+          }
+        }
+        ?>
 
 
       </div>

@@ -35,14 +35,14 @@
 
     <div id="header-menu">
       <ul>
-        <li><a href="index.html">HOME</a></li>
+        <li><mfont><a href="index.php">HOME</a></mfont></li>
         <li><a href="research.html">研究</a></li>
         <li><a href="members.html">メンバー</a></li>
         <li><a href="thesis.html">学位論文</a></li>
         <li><a href="publications.html">論文</a></li>
-        <li><a href="news.html">ニュース</a></li>
+        <li><a href="news.php">ニュース</a></li>
         <li><a href="link.html">リンク</a></li>
-        <li><a href="index-e.html"><b>English</b></a></li>
+        <li><a href="news-e.php"><b>English</b></a></li>
       </ul>
     </div>
 
@@ -59,20 +59,7 @@
 
         <h2>ニュース</h2>
 
-        <p>
-          2026.03.31&emsp;2025年度の<a href="thesis.html">学位論文</a>を掲載しました。<br>
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
-
-        <p>
-          2025.05.01&emsp;<a href="members.html">メンバー</a>を更新しました。<br>
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
-
-        <p>
-          2025.04.01&emsp; <a href="members.html">Christophe Bronner</a>が助教として着任しました。<br />
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+        <?php include 'news_content.html'; ?>
 
         <br />
 

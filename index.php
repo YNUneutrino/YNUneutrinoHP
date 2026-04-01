@@ -35,16 +35,14 @@
 
     <div id="header-menu">
       <ul>
-        <li>
-          <mfont><a href="index.html">HOME</a></mfont>
-        </li>
+        <li><mfont><a href="index.php">HOME</a></mfont></li>
         <li><a href="research.html">研究</a></li>
         <li><a href="members.html">メンバー</a></li>
         <li><a href="thesis.html">学位論文</a></li>
         <li><a href="publications.html">論文</a></li>
-        <li><a href="news.html">ニュース</a></li>
+        <li><a href="news.php">ニュース</a></li>
         <li><a href="link.html">リンク</a></li>
-        <li><a href="index-e.html"><b>English</b></a></li>
+        <li><a href="index-e.php"><b>English</b></a></li>
       </ul>
     </div>
 
@@ -85,25 +83,23 @@
 
         <h2>最新ニュース</h2>
 
-        <p>
-          2026.03.31&emsp;2025年度の<a href="thesis.html">学位論文</a>を掲載しました。<br>
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+        <?php
+        $lines = file('news_content.html'); // ファイルを1行ずつ配列で取得
 
-        <p>
-          2025.05.01&emsp;<a href="members.html">メンバー</a>を更新しました。<br>
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+        $count = 0;
+        foreach ($lines as $line) {
+          echo $line;
 
-        <p>
-          2025.04.01&emsp; <a href="members.html">Christophe Bronner</a>が助教として着任しました。<br />
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+          // </p> が出たら1件とカウント
+          if (strpos($line, '</p>') !== false) {
+            $count++;
+          }
 
-        <p>
-          過去のニュースは<a href="news.html">こちら</a>。<br />
-          <img src="img/line.gif" alt="" border="0" />
-        </p>
+          if ($count >= 3) {
+            break;
+          }
+        }
+        ?>
 
       </div>
 

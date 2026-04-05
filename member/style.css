@@ -10,7 +10,10 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* テーブル全体 */
+/***************************************************/
+/****              テーブル全体の設定              ****/
+/***************************************************/
+
 .member-table {
   width: 100%;
   max-width: 750px;
@@ -23,6 +26,12 @@ h1 {
 /* 行 */
 .member {
   border-bottom: 1px solid #eee;
+  font-family:
+  "Hiragino Maru Gothic ProN",
+  sans-serif;
+}
+.member:hover {
+  background: #f9fafb;
 }
 
 /* セル */
@@ -32,45 +41,72 @@ h1 {
   vertical-align: middle;
 }
 
-/* 画像 */
+/***************************************************/
+/****                 各要素の設定                ****/
+/***************************************************/
+
+/****************** photo（左列）******************/
 .photo {
   width: 120px;
   border-radius: 8px;
 }
 
-/* 情報部分 */
+/******************  info（中列）******************/
 .info p {
   margin: 4px 0;
 }
 
-/* 役職 */
 .role {
   font-weight: bold;
   color: #555;
 }
 
-/* 名前 */
 .name-ja {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* 日本語名 */
 .name {
   color: #777;
 }
 
-/* メール */
-.contact a {
+/****************** detail（右列）******************/
+.details {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.details p {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.details a {
   color: #0077cc;
   text-decoration: none;
 }
-
-.contact a:hover {
+.details a:hover {
   text-decoration: underline;
 }
 
-/* ホバー効果 */
-.member:hover {
-  background: #f9fafb;
+.email {
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  color: #262626;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.research {
+  font-size: 13px;
+  /* font-weight: 600; */
+  color: #222;
+  margin-top: 6px;
+}
+
+.comment {
+  color: #666;
+  font-style: italic;
+  font-size: 13px;
+  font-family: "Meiryo"
 }

@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6f8;
+  margin: 20px;
+}
+
+/* タイトル */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* テーブル全体 */
+.member-table {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 行 */
+.member {
+  border-bottom: 1px solid #eee;
+}
+
+/* セル */
+.member th,
+.member td {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+/* 画像 */
+.photo {
+  width: 120px;
+  border-radius: 8px;
+}
+
+/* 情報部分 */
+.info p {
+  margin: 4px 0;
+}
+
+/* 役職 */
+.role {
+  font-weight: bold;
+  color: #555;
+}
+
+/* 名前 */
+.name-ja {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 日本語名 */
+.name {
+  color: #777;
+}
+
+/* メール */
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* ホバー効果 */
+.member:hover {
+  background: #f9fafb;
+}

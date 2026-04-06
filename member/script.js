@@ -5,7 +5,6 @@ function getImgPath(file) {
   return IMG_BASE + (file && file.trim() ? file : DEFAULT_IMG);
 }
 
-
 fetch("members.json")
   .then(res => res.json())
   .then(members => {

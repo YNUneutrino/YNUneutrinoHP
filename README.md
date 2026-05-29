@@ -1,6 +1,6 @@
 # YNU Neutrino Group Website
 
-横浜国立大学 南野・Bronner研究室の公式Webサイトのソースコードです。
+横浜国立大学 南野・Bronner研究室の[公式Webサイト](https://neutrino.ynu.ac.jp/)のソースコードです。
 本リポジトリでは、サイトのHTML/PHP/CSSおよび各種コンテンツを管理しています。
 
 ---

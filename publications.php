@@ -1,14 +1,14 @@
 <!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 
 <head>
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Cache-Control" content="no-cache">
   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta name="keywords" content="neutrino,YNU" />
+  <meta name="keywords" content="ニュートリノ,neutrino,YNU" />
   <meta name="description" content="紹介文" />
-  <title>Publications - Minamino & Bronner lab@YNU</title>
+  <title>論文 - 南野・Bronner研@YNU</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
@@ -21,29 +21,8 @@
 
     <!-- ヘッダー -->
 
-    <div id="header">
-
-      <table border="0" cellpadding="0" cellspacing="0" width="800">
-        <tr>
-          <td>
-            <h2>Neutrino and Astroparticle Physics Laboratory<br>Minamino & Bronner lab＠Yokohama National University</h2>
-          </td>
-        </tr>
-      </table>
-
-    </div>
-
-    <div id="header-menu">
-      <ul>
-        <li><a href="index-e.php">HOME</a></li>
-        <li><a href="research-e.html">Researches</a></li>
-        <li><a href="members-e.html">Members</a></li>
-        <li><a href="thesis-e.html">Theses</a></li>
-        <li><a href="publications-e.html">Papers</a></li>
-        <li><a href="news-e.php">News</a></li>
-        <li><a href="publications.html"><b>Japanease</b></a></li>
-      </ul>
-    </div>
+    <?php $lang = 'ja'; ?>
+    <?php include 'header.php'; ?>
 
     <center>
       <!---  <img src="img/publications.jpg" width = "380px" alt="" class="photo01" border="0" /> --->
@@ -60,28 +39,28 @@
     <div id="container">
       <div id="contents">
 
-        <h2>Fiscal 2021</h2>
-        <p><b>Papers (with perr review)</b></p>
+        <h2>2021年度</h2>
+        <p><b>論文(査読付)</b></p>
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <p><b>その他の論文・Proceedings</b></p>
         <ul>
           <li> </li>
         </ul>
 
-
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
           <li> </li>
         </ul>
 
-
-        <p><b>Books and Articles</b></p>
+        <h2>2020年度</h2>
+        <p><b>論文(査読付)</b></p>
         <ul>
-          <li> </li>
-        </ul>
 
-
-        <h2>Fiscal 2020</h2>
-        <p><b>Papers (with perr review)</b></p>
-        <ul>
           <li><a href="https://doi.org/10.1103/PhysRevD.103.L011101">"T2K measurements of muon neutrino and antineutrino
               disappearance using 3.13×10^{21} protons on target "</a>,K. Abe, N. Akhlaq, R. Akutsu, A. Ali, <u>Y.
               Asada</u>, C. Alt,<u>Y. Katayama, A. Minamino , G. Pintaudi, Y. Tanihara</u> et al. (T2K Collaboration),
@@ -157,23 +136,26 @@
               Minamino</u> et al. , Nucl. Inst. and Meth. A<b>958</b>(2020),162803;1-4, DOI:
             https://doi.org/10.1016/j.nima.2019.162803, published on 1 April 2020</li>
 
+
+
+
         </ul>
 
+        <p><b>その他の論文・Proceedings</b></p>
+        <ul>
+          <li> </li>
+        </ul>
 
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
           <li> </li>
         </ul>
 
 
-        <p><b>Books and Articles</b></p>
+        <h2>2019年度</h2>
+        <p><b>論文(査読付)</b></p>
         <ul>
-          <li> </li>
-        </ul>
 
-        <h2>Fiscal 2019</h2>
-        <p><b>Papers (with perr review)</b></p>
-        <ul>
           <li><a href="https://doi.org/10.1093/ptep/ptaa030">"Design and performance of a high-pressure xenon gas TPC as
               a prototype for a large-scale neutrinoless double-beta decay search "</a>,S.Ban, M. Hirose, A.K. Ichikawa,
             Y. Iwashita, <u>A. Minamino</u> et. al, Prog. Theor. Exp. Phys.<b>033</b>H01 (2020).,1-20, DOI:
@@ -237,22 +219,21 @@
         </ul>
 
 
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>その他の論文・Proceedings</b></p>
         <ul>
-          <li>none</li>
+          <li>なし</li>
         </ul>
 
 
-        <p><b>Books and Articles</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
-          <li>none</li>
+          <li>「国立大学で工学を学ぼう」、株式会社フロムページ　夢ナビ編集部(著)、株式会社フロムページ(出版)、2019年4月、ISBN: 10-4991067804。南野彰宏が第2章の記事を担当。</li>
         </ul>
 
 
-        <h2>Fiscal 2018</h2>
-        <p><b>Papers (with perr review)</b></p>
+        <h2>2018年度</h2>
+        <p><b>論文(査読付)</b></p>
         <ul>
-
           <li><a href="https://doi.org/10.1103/PhysRevD.99.032005">"Measurement of the neutrino-oxygen neutral-current
               quasielastic cross section using atmospheric neutrinos at Super-Kamiokande"</a>, L. Wan, K. Abe, C.
             Bronner, <u>A. Minamino</u> et al. (The Super-Kamiokande Collaboration), Phys. Rev. D <b>99</b>,
@@ -302,7 +283,7 @@
         </ul>
 
 
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>その他の論文・Proceedings</b></p>
         <ul>
 
           <li><a href="https://arxiv.org/abs/1901.03750">"T2K ND280 Upgrade - Technical Design Report"</a>, K. Abe, H.
@@ -320,148 +301,151 @@
         </ul>
 
 
-        <p><b>Books and Articles</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
           <li><a href="http://www.jahep.org/hepnews/2018/18-3-4-VSoN.pdf">"Rencontres Du Vietnam Vietnam School on
-              Neutrino (VSoN) 2018"</a>, Son Cao, T.Odagawa 、<u>Giorgio Pintaudi</u> , High Energy News Vol.<b>37</b>,
-            No. 3, 2018, Published on 2018/10.11.12</li>
+              Neutrino (VSoN) 2018"</a>, Son Cao, 小田川高大、Giorgio Pintaudi, 高エネルギーニュース Vol.<b>37</b>, No. 3, 2018,
+            Published on 2018/10.11.12</li>
         </ul>
 
         <br>
 
-        <h2>Fiscal 2017</h2>
-        <p><b>Papers (with perr review)</b></p>
+        <h2>2017年度</h2>
+        <p><b>論文(査読付)</b></p>
         <ul>
           <li><a href="https://doi.org/10.1103/PhysRevD.97.012001">"First measurement of the &nu;<sub>&mu;</sub>
               charged-current cross section on a water target without pions in the final state"</a>, K. Abe, J. Amey, C.
-            Andreopoulos, A. Minamino et al. (T2K Collaboration), Phys. Rev. D <b>97</b>, 012001:1-16, DOI:
+            Andreopoulos, <u>A. Minamino</u> et al. (T2K Collaboration), Phys. Rev. D <b>97</b>, 012001:1-16, DOI:
             https://doi.org/10.1103/PhysRevD.97.012001, Published on 8 January 2018.</li>
 
           <li><a href="https://doi.org/10.1016/j.nima.2017.09.015">"Electroluminescence collection cell as a readout for
-              a high energy resolution Xenon gas TPC"</a>, S. Ban, K.D. Nakamura, M. Hirose, A. Minamino et al., Nucl.
-            Inst. Meth. A <b>875</b>, 185-192, DOI: https://doi.org/10.1016/j.nima.2017.09.015, Published on 11 December
-            2017.</li>
+              a high energy resolution Xenon gas TPC"</a>, S. Ban, K.D. Nakamura, M. Hirose, <u>A. Minamino</u> et al.,
+            Nucl. Inst. Meth. A <b>875</b>, 185-192, DOI: https://doi.org/10.1016/j.nima.2017.09.015, Published on 11
+            December 2017.</li>
 
           <li><a href="https://doi.org/10.3847/1538-4357/aa951b">"Search for an Excess of Events in the Super-Kamiokande
               Detector in the Directions of the Astrophysical Neutrinos Reported by the IceCube Collaboration"</a>, K.
-            Abe, C. Bronner, G. Pronost, A. Minamino et al. (The Super-Kamiokande Collaboration), The Astrophysical
-            Journal <b>850</b>, 166;1-7, DOI: https://doi.org/10.3847/1538-4357/aa951b, Published on 1 December 2017.
-          </li>
+            Abe, C. Bronner, G. Pronost, <u>A. Minamino</u> et al. (The Super-Kamiokande Collaboration), The
+            Astrophysical Journal <b>850</b>, 166;1-7, DOI: https://doi.org/10.3847/1538-4357/aa951b, Published on 1
+            December 2017.</li>
 
           <li><a href="https://doi.org/10.1103/PhysRevD.96.092006">"Measurement of neutrino and antineutrino
               oscillations by the T2K experiment including a new additional sample of ne interactions at the far
-              detector”</a>, K. Abe, J. Amey, C. Andreopoulos, A. Minamino et al. (T2K Collaboration), Phys. Rev. D
-            <b>96</b>, 092006:1-49, DOI: https://doi.org/10.1103/PhysRevD.96.092006, Published on 21 November 2017.</li>
+              detector”</a>, K. Abe, J. Amey, C. Andreopoulos, <u>A. Minamino</u> et al. (T2K Collaboration), Phys. Rev.
+            D <b>96</b>, 092006:1-49, DOI: https://doi.org/10.1103/PhysRevD.96.092006, Published on 21 November 2017.
+          </li>
 
           <li><a href="https://doi.org/10.1103/PhysRevD.96.011102">"Updated T2K measurements of muon neutrino and
               antineutrino disappearance using 1.5&times;10<sup>21</sup> protons on target"</a>, K. Abe, J. Amey, C.
-            Andreopoulos, A. Minamino et al. (T2K Collaboration), Phys. Rev. D <b>96</b>, 011102:1-9, DOI:
+            Andreopoulos, <u>A. Minamino</u> et al. (T2K Collaboration), Phys. Rev. D <b>96</b>, 011102:1-9, DOI:
             https://doi.org/10.1103/PhysRevD.96.011102, Published on 31 July 2017.</li>
 
           <li><a href="https://doi.org/10.1103/PhysRevD.96.012003">"Search for nucleon decay into charged antilepton
               plus meson in 0.316 megaton · years exposure of the Super-Kamiokande water Cherenkov detector"</a>, K.
-            Abe, C. Bronner, G. Pronost, A. Minamino et al. (The Super-Kamiokande Collaboration), Phys. Rev. D
+            Abe, C. Bronner, G. Pronost, <u>A. Minamino</u> et al. (The Super-Kamiokande Collaboration), Phys. Rev. D
             <b>96</b>, 012003:1-18, DOI: https://doi.org/10.1103/PhysRevD.96.012003, Published on 24 July 2017.</li>
 
           <li><a href="https://doi.org/10.1093/ptep/ptx077">"First neutrino event detection with nuclear emulsion at
-              J-PARC neutrino beamline"</a>, T. Fukuda, S. Aoki, S. Cao, A. Minamino et al., Prog. Theor. Exp. Phys.,
-            Volume 2017, Issue 6, 063C02;1-23, DOI: https://doi.org/10.1093/ptep/ptx077, Published on 30 June 2017.</li>
+              J-PARC neutrino beamline"</a>, T. Fukuda, S. Aoki, S. Cao, <u>A. Minamino</u> et al., Prog. Theor. Exp.
+            Phys., Volume 2017, Issue 6, 063C02;1-23, DOI: https://doi.org/10.1093/ptep/ptx077, Published on 30 June
+            2017.</li>
 
           <li><a href="https://doi.org/10.1093/ptep/ptx083">"First demonstration of an emulsion multi-stage shifter for
-              accelerator neutrino experiments in J-PARC T60"</a>, K. Yamada, S. Aoki, S. Cao, A. Minamino et al., Prog.
-            Theor. Exp. Phys., Volume 2017, Issue 6, 063H02;1-17, DOI: https://doi.org/10.1093/ptep/ptx083, Published on
-            30 June 2017.</li>
+              accelerator neutrino experiments in J-PARC T60"</a>, K. Yamada, S. Aoki, S. Cao, <u>A. Minamino</u> et
+            al., Prog. Theor. Exp. Phys., Volume 2017, Issue 6, 063H02;1-17, DOI: https://doi.org/10.1093/ptep/ptx083,
+            Published on 30 June 2017.</li>
 
           <li><a href="https://doi.org/10.1103/PhysRevD.95.111101">"Search for Lorentz and CPT violation using sidereal
               time dependence of neutrino flavor transitions over a short baseline"</a>, K. Abe, J. Amey, C.
-            Andreopoulos, A. Minamino et al. (T2K Collaboration), Phys. Rev. D <b>95</b>, 111101:1-9, DOI:
+            Andreopoulos, <u>A. Minamino</u> et al. (T2K Collaboration), Phys. Rev. D <b>95</b>, 111101:1-9, DOI:
             https://doi.org/10.1103/PhysRevD.95.111101, Published on 29 June 2017.</li>
 
           <li><a href="https://doi.org/10.1103/PhysRevLett.118.151801">"Combined Analysis of Neutrino and Antineutrino
-              Oscillations at T2K"</a>, K. Abe, J. Amey, C. Andreopoulos, M. Antonova, S. Aoki, A. Ariga, A. Minamino et
-            al. (T2K Collaboration), Phys. Rev. Lett. <b>118</b>, 151801:1-9, DOI:
+              Oscillations at T2K"</a>, K. Abe, J. Amey, C. Andreopoulos, M. Antonova, S. Aoki, A. Ariga, <u>A.
+              Minamino</u> et al. (T2K Collaboration), Phys. Rev. Lett. <b>118</b>, 151801:1-9, DOI:
             https://doi.org/10.1103/PhysRevLett.118.151801, Published on 10 April 2017.</li>
         </ul>
 
 
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>その他の論文・Proceedings</b></p>
         <ul>
           <li><a href="https://cds.cern.ch/record/2314920/files/AIDA-2020-CONF-2018-002.pdf">"The Baby MIND muon
-              spectrometer for the J-PARC T59(WAGASCI) experiment"</a>, M. Antonova, R. Asfandiyarov, R. Bayes, A.
-            Minamino et al., PoS(EPS-HEP2017) 508, Published on 27 March 2018.</li>
+              spectrometer for the J-PARC T59(WAGASCI) experiment"</a>, M. Antonova, R. Asfandiyarov, R. Bayes, <u>A.
+              Minamino</u> et al., PoS(EPS-HEP2017) 508, Published on 27 March 2018.</li>
 
           <li><a href="http://eprints.gla.ac.uk/159441/1/159441.pdf">"Synchronization of the distributed readout
-              frontend electronics of the Baby MIND detector"</a>, M Antonova, R Asfandiyarov, R Bayes, A. Minamino et
-            al., 2017 XXVI International Scientific Conference Electronics (ET), 1-4, Published on 21 March 2018.</li>
+              frontend electronics of the Baby MIND detector"</a>, M Antonova, R Asfandiyarov, R Bayes, <u>A.
+              Minamino</u> et al., 2017 XXVI International Scientific Conference Electronics (ET), 1-4, Published on 21
+            March 2018.</li>
 
           <li><a href="https://ieeexplore.ieee.org/document/8124369">"Synchronization of the distributed readout
-              frontend electronics of the Baby MIND detector"</a>,M. Antonova, R. Asfandiyarov, R. Bayes, A. Minamino et
-            al., 2017 XXVI International Scientific Conference Electronics (ET) 8124369, Published on 1 December 2017.
-          </li>
+              frontend electronics of the Baby MIND detector"</a>,M. Antonova, R. Asfandiyarov, R. Bayes, <u>A.
+              Minamino</u> et al., 2017 XXVI International Scientific Conference Electronics (ET) 8124369, Published on
+            1 December 2017.</li>
 
           <li><a href="https://ieeexplore.ieee.org/abstract/document/8532795">"Development of a neutrino detector and
               electronics for precise measurement of neutrino cross-section ratios"</a>, R. Tamura, N. Chikuma, T. Koga,
-            A. Minamino et al., 2017 IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC) 853295,
-            Published on 15 November 2017.</li>
+            <u>A. Minamino</u> et al., 2017 IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC)
+            853295, Published on 15 November 2017.</li>
 
           <li><a href="http://inspirehep.net/record/1664646/files/PoS(EPS-HEP2017)780.pdf">"Development of electronics
               and data acquisition system for the J-PARC T59(WAGASCI) experiment"</a>, N. Chikuma, F. Hosomi, T. Koga,
-            A. Minamino et al., PoS(EPS-HEP2017) 780, Published on 13 November 2017.</li>
+            <u>A. Minamino</u> et al., PoS(EPS-HEP2017) 780, Published on 13 November 2017.</li>
 
           <li><a href="https://iopscience.iop.org/article/10.1088/1742-6596/888/1/012166/pdf">"The WAGASCI detector as
-              an off-axis near detector of the T2K and Hyper-Kamiokande experiments"</a>, B. Quilain, A. Minamino, J.
-            Phys.:Conf. Ser. <b>780</b>, Published on September 2017.</li>
+              an off-axis near detector of the T2K and Hyper-Kamiokande experiments"</a>, B. Quilain, <u>A.
+              Minamino</u>, J. Phys.:Conf. Ser. <b>780</b>, Published on September 2017.</li>
 
           <li><a href="https://iopscience.iop.org/article/10.1088/1748-0221/12/07/C07028/pdf">"Baby MIND: a magnetized
-              segmented neutrino detector for the WAGASCI experiment"</a>, M. Antonova, R. Asfandiyarov, R. Bayes, A.
-            Minamino et al., Journal of Instrumentation 12 (07), C07028, Published on 19 July 2017.</li>
+              segmented neutrino detector for the WAGASCI experiment"</a>, M. Antonova, R. Asfandiyarov, R. Bayes, <u>A.
+              Minamino</u> et al., Journal of Instrumentation 12 (07), C07028, Published on 19 July 2017.</li>
 
           <li><a href="https://pos.sissa.it/314/508/pdf">"The Baby MIND muon spectrometer for the J-PARC T59 (WAGASCI)
-              experiment"</a>, E. Noah, M. Antonova, R. Asfandiyarov, A. Minamino et al., PoS(EPS-HEP2017) 508,
+              experiment"</a>, E. Noah, M. Antonova, R. Asfandiyarov, <u>A. Minamino</u> et al., PoS(EPS-HEP2017) 508,
             Published on July 2017.</li>
 
           <li><a href="https://arxiv.org/pdf/1704.08917">"Baby MIND Experiment Construction Status"</a>, M Antonova, R
-            Asfandiyarov, R Bayes, A. Minamino et al., arXiv: 1704.08917, Submitted on 28 April 2017.</li>
+            Asfandiyarov, R Bayes, <u>A. Minamino</u> et al., arXiv: 1704.08917, Submitted on 28 April 2017.</li>
 
           <li><a href="https://arxiv.org/pdf/1704.08079">"Baby MIND: A magnetised spectrometer for the WAGASCI
-              experiment"</a>, M Antonova, R Asfandiyarov, R Bayes, A. Minamino et al., arXiv: 1704.08079, Submitted on
-            26 April 2017.</li>
+              experiment"</a>, M Antonova, R Asfandiyarov, R Bayes, <u>A. Minamino</u> et al., arXiv: 1704.08079,
+            Submitted on 26 April 2017.</li>
 
         </ul>
 
 
-        <p><b>Books and Articles</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
-          <li>none</li>
+          <li>なし</li>
         </ul>
 
         <br>
 
-        <h2>Fiscal 2016 (since Minamino-lab started @ YNU in December 2016)</h2>
-        <p><b>Papers (with perr review)</b></p>
+        <h2>2016年度（2016年12月以降分）</h2>
+        <p><b>論文(査読付)</b></p>
         <ul>
 
           <li><a href="https://doi.org/10.1016/j.nima.2016.06.083">"AXEL—a high pressure xenon gas TPC for neutrinoless
-              double beta decay search"</a>, K. Nakamura, A.K. Ichikawa, T. Nakaya, A. Minamino et al., Nucl. Inst.
-            Meth. A <b>845</b>, 394-397, DOI: https://doi.org/10.1016/j.nima.2016.06.083, Published on 11 February 2017.
-          </li>
+              double beta decay search"</a>, K. Nakamura, A.K. Ichikawa, T. Nakaya, <u>A. Minamino</u> et al., Nucl.
+            Inst. Meth. A <b>845</b>, 394-397, DOI: https://doi.org/10.1016/j.nima.2016.06.083, Published on 11 February
+            2017.</li>
 
           <li><a href="https://doi.org/10.1103/PhysRevD.95.012010">"First measurement of the muon neutrino charged
               current single pion production cross section on water with the T2K near detector"</a>, K. Abe, C.
-            Andreopoulos, M. Antonova, S. Aoki, A. Ariga, A. Minamino (T2K Collaboration), Phys. Rev. D <b>95</b>,
-            012010:1-11, DOI:https://doi.org/10.1103/PhysRevD.95.012010, Published on 26 January 2017.</li>
+            Andreopoulos, M. Antonova, S. Aoki, A. Ariga, <u>A. Minamino</u> (T2K Collaboration), Phys. Rev. D
+            <b>95</b>, 012010:1-11, DOI:https://doi.org/10.1103/PhysRevD.95.012010, Published on 26 January 2017.</li>
         </ul>
 
 
-        <p><b>Other papers and Proceedings</b></p>
+        <p><b>その他の論文・Proceedings</b></p>
         <ul>
-          <li>none</li>
+          <li>なし</li>
         </ul>
 
 
-        <p><b>Books and Articles</b></p>
+        <p><b>著書・記事</b></p>
         <ul>
-          <li>none</li>
+          <li>なし</li>
         </ul>
 
 
@@ -479,10 +463,8 @@
 
     <!-- フッター -->
 
-    <div id="footer">
-      79-1 Tokiwadai, Hodogaya-ku, Yokohama 240-8501, Japan<br>
-      Copyright (C) 2025 YNU neutrino group All Rights Reserved.　design by <a href="http://tempnate.com/">tempnate</a>
-    </div>
+    <?php $lang = 'ja'; ?>
+    <?php include 'footer.php'; ?>
 
     <!-- フッター終わり -->
 

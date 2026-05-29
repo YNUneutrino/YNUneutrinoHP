@@ -21,31 +21,8 @@
 
     <!-- ヘッダー -->
 
-    <div id="header">
-
-      <table border="0" cellpadding="0" cellspacing="0" width="800">
-        <tr>
-          <td>
-            <h2>ニュートリノ・宇宙素粒子物理学実験<br>南野・Bronner研究室＠横浜国立大学(YNU) 理工学部・理工学府</h2>
-          </td>
-        </tr>
-      </table>
-
-    </div>
-
-    <div id="header-menu">
-      <ul>
-        <li><mfont><a href="index.php">HOME</a></mfont></li>
-        <li><a href="research.html">研究</a></li>
-        <li><a href="members.html">メンバー</a></li>
-        <li><a href="thesis.html">学位論文</a></li>
-        <li><a href="publications.html">論文</a></li>
-        <li><a href="news.php">ニュース</a></li>
-        <li><a href="link.html">リンク</a></li>
-        <li><a href="research-e.html"><b>English</b></a></li>
-      </ul>
-    </div>
-
+    <?php $lang = 'ja'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- ヘッダー終わり -->
 
@@ -108,10 +85,8 @@
 
     <!-- フッター -->
 
-    <div id="footer">
-      〒240-8501 横浜市保土ヶ谷区常盤台79-5横浜国立大学理学研究棟408号室<br>
-      Copyright (C) 2025 YNU neutrino group All Rights Reserved.　design by <a href="http://tempnate.com/">tempnate</a>
-    </div>
+    <?php $lang = 'ja'; ?>
+    <?php include 'footer.php'; ?>
 
     <!-- フッター終わり -->
 

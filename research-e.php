@@ -21,30 +21,8 @@
 
     <!-- ヘッダー -->
 
-    <div id="header">
-
-      <table border="0" cellpadding="0" cellspacing="0" width="800">
-        <tr>
-          <td>
-            <h2>Neutrino and Astroparticle Physics Laboratory<br>Minamino & Bronner lab＠Yokohama National University</h2>
-          </td>
-        </tr>
-      </table>
-
-    </div>
-
-    <div id="header-menu">
-      <ul>
-        <li><a href="index-e.php">HOME</a></li>
-        <li><a href="research-e.html">Researches</a></li>
-        <li><a href="members-e.html">Members</a></li>
-        <li><a href="thesis-e.html">Theses</a></li>
-        <li><a href="publications-e.html">Papers</a></li>
-        <li><a href="news-e.php">News</a></li>
-        <li><a href="research.html"><b>Japanease</b></a></li>
-      </ul>
-    </div>
-
+    <?php $lang = 'en'; ?>
+    <?php include 'header.php'; ?>
 
     <!-- ヘッダー終わり -->
 
@@ -111,10 +89,8 @@
 
     <!-- フッター -->
 
-    <div id="footer">
-      79-1 Tokiwadai, Hodogaya-ku, Yokohama 240-8501, Japan<br>
-      Copyright (C) 2025 YNU neutrino group All Rights Reserved.　design by <a href="http://tempnate.com/">tempnate</a>
-    </div>
+    <?php $lang = 'ja'; ?>
+    <?php include 'footer.php'; ?>
 
     <!-- フッター終わり -->
 

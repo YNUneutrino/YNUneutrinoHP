@@ -1,16 +1,8 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
-  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta name="keywords" content="neutrino,YNU" />
-  <meta name="description" content="紹介文" />
-  <title>Links - Minamino & Bronner lab@YNU</title>
-  <link rel="stylesheet" href="style.css" type="text/css" />
-</head>
+<?php
+$lang = 'en';
+$title = 'Links - Minamino & Bronner lab@YNU';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
+?>
 
 <body>
 
@@ -18,15 +10,14 @@
 
   <div id="main">
 
-
     <!-- ヘッダー -->
 
     <?php $lang = 'en'; ?>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 
     <center>
       <!---  <img src="img/link.jpg" width = "380px" alt="" class="photo01" border="0" />  --->
-      <img src="img/link2.jpg" width="250px" alt="" class="photo01" border="0" />
+      <img src="/img/link2.jpg" width="250px" alt="" class="photo01" border="0" />
     </center>
 
     <!-- ヘッダー終わり -->
@@ -66,7 +57,7 @@
     <!-- フッター -->
 
     <?php $lang = 'en'; ?>
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 
     <!-- フッター終わり -->
 

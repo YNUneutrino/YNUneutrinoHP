@@ -1,16 +1,8 @@
-﻿<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
-  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta name="keywords" content="neutrino,YNU" />
-  <meta name="description" content="紹介文" />
-  <title>Members - Minamino & Bronner lab@YNU</title>
-  <link rel="stylesheet" href="style.css" type="text/css" />
-</head>
+﻿<?php
+$lang = 'en';
+$title = 'Members - Minamino & Bronner lab@YNU';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
+?>
 
 <body>
 
@@ -18,11 +10,10 @@
 
   <div id="main">
 
-
     <!-- ヘッダー -->
 
     <?php $lang = 'en'; ?>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 
     <!-- ヘッダー終わり -->
 
@@ -38,7 +29,7 @@
         <p><b>Staff</b></p>
         <table class="type03">
           <tr>
-            <th scope="row"><img src="img/minamino_photo.jpg" width="150px" alt="" class="photo01" border="0" /></th>
+            <th scope="row"><img src="/img/minamino_photo.jpg" width="150px" alt="" class="photo01" border="0" /></th>
             <td width="200"></br> Professor </br>
               &nbsp;&nbsp;Akihiro MINAMINO
             </td>
@@ -50,7 +41,7 @@
           </tr>
 
           <tr>
-						<th scope="row"><img src="img/christophe_photo.jpg" width="150px" alt="" class="photo01"
+						<th scope="row"><img src="/img/christophe_photo.jpg" width="150px" alt="" class="photo01"
 								border="0" /></th>
 						<td width="200"></br> Assistant Professor</br>
 							&nbsp;&nbsp;Christophe Bronner</br>
@@ -62,7 +53,7 @@
 						</td>
 					</tr>
 
-            <th scope="row"><img src="img/giorgio.jpg" width="150px" alt="" class="photo01" border="0" /></th>
+            <th scope="row"><img src="/img/giorgio.jpg" width="150px" alt="" class="photo01" border="0" /></th>
             <td width="200"></br> Researcher </br>&nbsp;&nbsp;Giorgio Pintaudi
             </td>
             <td width="400">
@@ -79,7 +70,7 @@
         <!--M2-->
 
         <tr>
-          <th scope="row"><img src="img/24inomata.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/24inomata.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M2</br>&nbsp;&nbsp;</br>Yuki INOMATA</td>
           <td width="400">
@@ -88,7 +79,7 @@
 
         </tr>
         <tr>
-          <th scope="row"><img src="img/25kato.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/25kato.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M2</br>&nbsp;&nbsp;Aoi KATO</td>
           <td width="400">
@@ -97,7 +88,7 @@
 
         </tr>
         <tr>
-          <th scope="row"><img src="img/25zhong.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/25zhong.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M2</br>&nbsp;&nbsp;Enming ZHONG</td>
           <td width="400">
@@ -105,7 +96,7 @@
           </td>
         </tr>
         <tr>
-          <th scope="row"><img src="img/24hirata.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/24hirata.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M2</br>&nbsp;&nbsp;Daigo HIRATA</td>
           <td width="400">
@@ -117,7 +108,7 @@
 
 
         <tr>
-          <th scope="row"><img src="img/25sato.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/25sato.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M1</br>&nbsp;&nbsp;Itsuki SATO</td>
           <td width="400">
@@ -125,7 +116,7 @@
           </td>
         </tr>
         <tr>
-          <th scope="row"><img src="img/25joka.JPG" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/25joka.JPG" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M1</br>&nbsp;&nbsp;Chihaya JOKA</td>
           <td width="400">
@@ -134,7 +125,7 @@
 
         </tr>
         <tr>
-          <th scope="row"><img src="img/25nakanishi.jpg" width="150px" alt="" class="photo01" border="0" />
+          <th scope="row"><img src="/img/25nakanishi.jpg" width="150px" alt="" class="photo01" border="0" />
           </th>
           <td width="200"></br> M1</br>&nbsp;&nbsp;Fuka NAKANISHI</td>
           <td width="400">
@@ -143,7 +134,7 @@
 
         </tr>
         <tr>
-						<th scope="row"><img src="img/26mara.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26mara.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> M1</br>&nbsp;&nbsp;Mara　PRIPON</td>
 						<td width="400">
@@ -152,7 +143,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/26clement.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26clement.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> M1</br>&nbsp;&nbsp;Clément　BOUQUET</td>
 						<td width="400">
@@ -164,7 +155,7 @@
         <!--B4-->
 
 					<tr>
-						<th scope="row"><img src="img/unknown.png" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/unknown.png" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Hiroto KOJIMA</td>
 						<td width="400">
@@ -173,7 +164,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/26sato.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26sato.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Shota SATO</td>
 						<td width="400">
@@ -182,7 +173,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/26sugimoto.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26sugimoto.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Ren SUGIMOTO</td>
 						<td width="400">
@@ -191,7 +182,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/unknown.png" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/unknown.png" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Hiryu TAKE</td>
 						<td width="400">
@@ -200,7 +191,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/26nomura.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26nomura.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Kosei NOMURA</td>
 						<td width="400">
@@ -209,7 +200,7 @@
 
 					</tr>
 					<tr>
-						<th scope="row"><img src="img/26furuki.jpg" width="150px" alt="" class="photo01" border="0" />
+						<th scope="row"><img src="/img/26furuki.jpg" width="150px" alt="" class="photo01" border="0" />
 						</th>
 						<td width="200"></br> B4</br>&nbsp;&nbsp;Ayaka FURUKI</td>
 						<td width="400">
@@ -480,7 +471,7 @@
     <!-- フッター -->
 
     <?php $lang = 'en'; ?>
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 
     <!-- フッター終わり -->
 

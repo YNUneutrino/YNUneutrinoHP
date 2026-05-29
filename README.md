@@ -147,13 +147,13 @@ http://localhost:8000
 php -S localhost:8080
 ```
 
----
-
 ### 終了方法
 
 ```bash
 Ctrl + C
 ```
+
+---
 
 ## 6. 公開Webサイトへの反映方法
 

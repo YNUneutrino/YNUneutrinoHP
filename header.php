@@ -35,7 +35,7 @@
         // 「-e」を取り除いたファイル名にする（例: index.php や research.php）
         $ja_file = str_replace('-e', '', $current_file);
       ?>
-      <li><a href="<?php echo $ja_file; ?>"><b>Japanese</b></a></li>
+      <li><a href="<?php echo $ja_file; ?>"><b>🇯🇵日本語</b></a></li>
 
     <?php else: ?>
       <li><a href="index.php">HOME</a></li>
@@ -51,7 +51,7 @@
         // 拡張子（.php や .html）の直前に「-e」を挿入する
         $en_file = preg_replace('/(\.php|\.html)$/', '-e$1', $current_file);
       ?>
-      <li><a href="<?php echo $en_file; ?>"><b>English</b></a></li>
+      <li><a href="<?php echo $en_file; ?>"><b>🇬🇧English</b></a></li>
       
     <?php endif; ?>
   </ul>

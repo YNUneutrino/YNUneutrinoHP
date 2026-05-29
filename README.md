@@ -86,7 +86,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 ## 4. 編集方法
 
-1. ローカル環境の好きな場所（例：~/lab_HP）にリポジトリをclone
+1. ローカル環境の好きな場所（例：`~/lab_HP`）にリポジトリをclone
 2. 自分用のブランチを作成
 3. ファイルを編集
 4. 変更をcommit

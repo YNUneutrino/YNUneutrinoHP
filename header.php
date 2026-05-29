@@ -21,38 +21,34 @@
 <div id="header-menu">
   <ul>
     <?php if ($lang === 'en'): ?>
-      <li><a href="index-e.php">HOME</a></li>
-      <li><a href="research-e.php">Researches</a></li>
-      <li><a href="members-e.php">Members</a></li>
-      <li><a href="thesis-e.php">Theses</a></li>
-      <li><a href="publications-e.php">Papers</a></li>
-      <li><a href="news-e.php">News</a></li>
-      <li><a href="link-e.php">Links</a></li>
-      
-      <?php
-        // 現在のファイル名（例: index-e.php や research-e.php）を取得
-        $current_file = basename($_SERVER['SCRIPT_NAME']);
-        // 「-e」を取り除いたファイル名にする（例: index.php や research.php）
-        $ja_file = str_replace('-e', '', $current_file);
-      ?>
-      <li><a href="<?php echo $ja_file; ?>"><b>🇯🇵日本語</b></a></li>
-
+      <li><a href="/en/">HOME</a></li>
+      <li><a href="/en/research/">Research</a></li>
+      <li><a href="/en/members/">Members</a></li>
+      <li><a href="/en/thesis/">Theses</a></li>
+      <li><a href="/en/publications/">Papers</a></li>
+      <li><a href="/en/news/">News</a></li>
+      <li><a href="/en/link/">Links</a></li>
     <?php else: ?>
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="research.php">研究</a></li>
-      <li><a href="members.php">メンバー</a></li>
-      <li><a href="thesis.php">学位論文</a></li>
-      <li><a href="publications.php">論文</a></li>
-      <li><a href="news.php">ニュース</a></li>
-      <li><a href="link.php">リンク</a></li>
-      
-      <?php
-        $current_file = basename($_SERVER['SCRIPT_NAME']);
-        // 拡張子（.php や .html）の直前に「-e」を挿入する
-        $en_file = preg_replace('/(\.php|\.html)$/', '-e$1', $current_file);
-      ?>
-      <li><a href="<?php echo $en_file; ?>"><b>🇬🇧English</b></a></li>
-      
+      <li><a href="/ja/">HOME</a></li>
+      <li><a href="/ja/research/">研究</a></li>
+      <li><a href="/ja/members/">メンバー</a></li>
+      <li><a href="/ja/thesis/">学位論文</a></li>
+      <li><a href="/ja/publications/">論文</a></li>
+      <li><a href="/ja/news/">ニュース</a></li>
+      <li><a href="/ja/link/">リンク</a></li>
     <?php endif; ?>
+
+    <?php
+      $current = $_SERVER['REQUEST_URI'];
+      if ($lang === 'en') {
+          $switch = str_replace('/en/', '/ja/', $current);
+      } else {
+          $switch = str_replace('/ja/', '/en/', $current);
+      }
+    ?>
+    <li><a href="<?= $switch ?>"><b>
+      <?= $lang === 'en' ? '🇯🇵日本語' : '🇬🇧English' ?>
+    </b></a></li>
+
   </ul>
 </div>

@@ -1,16 +1,8 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Cache-Control" content="no-cache">
-  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-  <meta name="keywords" content="neutrino,YNU" />
-  <meta name="description" content="紹介文" />
-  <title>Researches - Minamino & Bronner lab@YNU</title>
-  <link rel="stylesheet" href="style.css" type="text/css" />
-</head>
+<?php
+$lang = 'en';
+$title = 'Researches - Minamino & Bronner lab@YNU';
+include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
+?>
 
 <body>
 
@@ -18,11 +10,10 @@
 
   <div id="main">
 
-
     <!-- ヘッダー -->
 
     <?php $lang = 'en'; ?>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 
     <!-- ヘッダー終わり -->
 
@@ -44,7 +35,7 @@
         </p>
 
         <center>
-          <img src="img/hk_image.jpg" width="380px" alt="" class="photo01" border="0" />
+          <img src="/img/hk_image.jpg" width="380px" alt="" class="photo01" border="0" />
         </center>
 
         <p><b><a href="https://t2k-experiment.org">T2K experiment</a></b><br>
@@ -53,7 +44,7 @@
         </p>
 
         <center>
-          <img src="img/T2K_img.jpg" width="600px" alt="" class="photo01" border="0" />
+          <img src="/img/T2K_img.jpg" width="600px" alt="" class="photo01" border="0" />
         </center>
         </center>
 
@@ -63,15 +54,15 @@
         </p>
 
         <center>
-          <img src="img/gd-neutrontag-e-m.jpg" width="380px" alt="" class="photo01" border="0" />
+          <img src="/img/gd-neutrontag-e-m.jpg" width="380px" alt="" class="photo01" border="0" />
         </center>
 
-        <p><b>NINJA experiment</b><br>
+        <p><b><a href="https://flab.phys.nagoya-u.ac.jp/2011/experiment/ninja/">NINJA experiment</a></b><br>
           NINJA experiment is measuring the T2K neutrino beam with nuclear emulsion detectors which have
           ultimate position resulution to measure neutrino interactions in detail.</p>
 
         <center>
-          <img src="img/NINJA.png" width="600px" alt="" class="photo01" border="0" />
+          <img src="/img/NINJA.png" width="600px" alt="" class="photo01" border="0" />
         </center>
 
 
@@ -89,8 +80,8 @@
 
     <!-- フッター -->
 
-    <?php $lang = 'ja'; ?>
-    <?php include 'footer.php'; ?>
+    <?php $lang = 'en'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 
     <!-- フッター終わり -->
 

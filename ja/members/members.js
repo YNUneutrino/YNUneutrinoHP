@@ -58,7 +58,12 @@ function renderMemberRow(table, member) {
   appendBr(infoTd);
   infoTd.append(` ${getJa(member.role)}`);
   appendBr(infoTd);
-  infoTd.append("  \u00a0\u00a0" + getJa(member.name));
+
+  const nameSpan = document.createElement("span");
+  nameSpan.className = "member-name";
+  nameSpan.textContent = "  \u00a0\u00a0" + getJa(member.name);
+  infoTd.appendChild(nameSpan);
+
   appendBr(infoTd);
   infoTd.append("  \u00a0\u00a0" + getKana(member.name));
   tr.appendChild(infoTd);

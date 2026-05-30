@@ -144,6 +144,7 @@ table {
 table.type03 {
   border-left: 3px solid #369;
   border-top: 1px solid #ccc;
+  font-weight: bold;
 }
 
 table.type03 th,
@@ -158,6 +159,11 @@ table.type03 th {
   width: 150px;
   font-weight: bold;
 }
+
+.member-name {
+  font-size: 1.2em;  /* 好みで調整 */
+}
+
 
 /* ---------- Footer ---------- */
 #footer {

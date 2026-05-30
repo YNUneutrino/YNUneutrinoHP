@@ -1,0 +1,310 @@
+[
+  {
+    "group": "staff",
+    "name": {
+      "ja": "南野 彰宏",
+      "kana" : "みなみの あきひろ",
+      "en": "Akihiro Minamino"
+    },
+    "role": {
+      "ja": "教授",
+      "en": "Professor"
+    },
+    "img": "minamino_photo.jpg",
+    "profile": "https://er-web.ynu.ac.jp/html/MINAMINO_Akihiro/ja.html",
+    "email": "minamino-akihiro-nx[at]ynu.ac.jp",
+    "phone": "045-339-4182",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "staff",
+    "name" : {
+      "ja" : "Christophe Bronner",
+      "kana" : "クリストフ ブロナー",
+      "en" : "Christophe Bronner"
+    },
+    "role": {
+      "ja" : "助教",
+      "en" : "Assistant Professor"
+    },
+    "img": "christophe_photo.jpg",
+    "profile": "https://er-web.ynu.ac.jp/html/BRONNER_Christophe/ja.html",
+    "email": "bronner-christophe-xr[at]ynu.ac.jp",
+    "phone": "045-339-4182",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "staff",
+    "name" : {
+      "ja" : "Giorgio Pintaudi",
+      "kana" : "ジョルジョ ピンタウディ",
+      "en" : "Giorgio Pintaudi"
+    },
+    "role": {
+      "ja" : "研究員",
+      "en" : "Researcher"
+    },
+    "img": "giorgio.jpg",
+    "profile": "",
+    "email": "",
+    "research": "T2K",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "猪俣 侑希",
+      "kana" : "いのまた ゆうき",
+      "en" : "Yuki INOMATA"
+    },
+    "role": {
+      "ja" : "M2",
+      "en" : "M2"
+    },
+    "img": "24inomata.jpg",
+    "profile": "",
+    "email": "inomata-yuki-ky[at]ynu.jp",
+    "research": "HK",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "加藤 あおい",
+      "kana" : "かとう あおい",
+      "en" : "Aoi KATO"
+    },
+    "role": {
+      "ja" : "M2",
+      "en" : "M2"
+    },
+    "img": "25kato.jpg",
+    "profile": "",
+    "email": "kato-aoi-fy[at]ynu.jp",
+    "research": "HK",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "鐘 恩明",
+      "kana" : "しょう おんめい",
+      "en" : "Enming ZHONG"
+    },
+    "role": {
+      "ja" : "M2",
+      "en" : "M2"
+    },
+    "img": "25zhong.jpg",
+    "profile": "",
+    "email": "zhong-enming-kv[at]ynu.jp",
+    "research": "SK",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "平田 大悟",
+      "kana" : "ひらた だいご",
+      "en" : "Daigo HIRATA"
+    },
+    "role": {
+      "ja" : "M2",
+      "en" : "M2"
+    },
+    "img": "24hirata.jpg",
+    "profile": "",
+    "email": "hirata-daigo-yc[at]ynu.jp",
+    "research": "T2K",
+    "comment": "みなさんを、愛しています。"
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "佐藤 樹",
+      "kana" : "さとう いつき",
+      "en" : "Itsuki SATO"
+    },
+    "role": {
+      "ja" : "M1",
+      "en" : "M1"
+    },
+    "img": "25sato.jpg",
+    "profile": "",
+    "email": "sato-itsuki-gn[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "城下 千剣",
+      "kana" : "じょうか ちはや",
+      "en" : "Chihaya JOKA"
+    },
+    "role": {
+      "ja" : "M1",
+      "en" : "M1"
+    },
+    "img": "25joka.jpg",
+    "profile": "",
+    "email": "jouka-chihaya-wc[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "中西 風花",
+      "kana" : "なかにし ふうか",
+      "en" : "Fuka NAKANISHI"
+    },
+    "role": {
+      "ja" : "M1",
+      "en" : "M1"
+    },
+    "img": "25nakanishi.jpg",
+    "profile": "",
+    "email": "nakanishi-fuka-bf[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "Mara PRIPON",
+      "kana" : "マラ プリポン",
+      "en" : "Mara PRIPON"
+    },
+    "role": {
+      "ja" : "M1",
+      "en" : "M1"
+    },
+    "img": "26mara.jpg",
+    "profile": "",
+    "email": "mara.pripon[at]polytechnique.edu",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "Clément BOUQUET",
+      "kana" : "クレメン ブケ",
+      "en" : "Clément BOUQUET"
+    },
+    "role": {
+      "ja" : "M1",
+      "en" : "M1"
+    },
+    "img": "26clement.jpg",
+    "profile": "",
+    "email": "clement.bouquet[at]polytechnique.edu",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "小島 滉人",
+      "kana" : "こじま ひろと",
+      "en" : "Hiroto KOJIMA"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "26kojima.jpg",
+    "profile": "",
+    "email": "kojima-hiroto-bk[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "佐藤 翔汰",
+      "kana" : "さとう しょうた",
+      "en" : "Shota SATO"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "26sato.jpg",
+    "profile": "",
+    "email": "sato-shota-vf[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "杉本 蓮",
+      "kana" : "すぎもと れん",
+      "en" : "Ren SUGIMOTO"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "26sugimoto.jpg",
+    "profile": "",
+    "email": "sugimoto-ren-bk[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "武 飛龍",
+      "kana" : "たけ ひりゅう",
+      "en" : "Hiryu TAKE"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "",
+    "profile": "",
+    "email": "take-hiryu-py[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "野村 洸成",
+      "kana" : "のむら こうせい",
+      "en" : "Kosei NOMURA"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "26nomura.jpg",
+    "profile": "",
+    "email": "nomura-kosei-tc[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  },
+  {
+    "group": "student",
+    "name" : {
+      "ja" : "古木 彩花",
+      "kana" : "ふるき あやか",
+      "en" : "Ayaka FURUKI"
+    },
+    "role": {
+      "ja" : "B4",
+      "en" : "B4"
+    },
+    "img": "26furuki.jpg",
+    "profile": "",
+    "email": "furuki-ayaka-fb[at]ynu.jp",
+    "research": "",
+    "comment": ""
+  }
+]

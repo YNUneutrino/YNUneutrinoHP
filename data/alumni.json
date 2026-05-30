@@ -1,0 +1,446 @@
+[
+  {
+    "year": "2025",
+    "name": {
+      "ja": "佐々木 優斗",
+      "en": "Yuto SASAKI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "鈴木 深大",
+      "en": "Mihiro SUZUKI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "高野 真綸",
+      "en": "Marin TAKANO"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "堀口 大輔",
+      "en": "Daisuke HORIGUCHI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "岩橋 快斗",
+      "en": "Kaito Iwahashi"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "北島 碧",
+      "en": "Aoi Kitajima"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2025",
+    "name": {
+      "ja": "橋戸 詞音",
+      "en": "Shion HASHIDO"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京科学大学大学院進学",
+      "en": "Grad student at Institute of Science Tokyo"
+    }
+  },
+  {
+    "year": "2024",
+    "name": {
+      "ja": "伊藤 俊",
+      "en": "Shun ITO"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2024",
+    "name": {
+      "ja": "芝山 凌",
+      "en": "Ryo SHIBAYAMA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2024",
+    "name": {
+      "ja": "島村 蓮",
+      "en": "Ren SHIMAMURA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2024",
+    "name": {
+      "ja": "太田 幸寿",
+      "en": "Yukitoshi OTA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東北大学大学院進学",
+      "en": "Grad student at Tohoku Univ."
+    }
+  },
+  {
+    "year": "2024",
+    "name": {
+      "ja": "橋爪 康希",
+      "en": "Koki HASHIZUME"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2023",
+    "name": {
+      "ja": "天内 昭吾",
+      "en": "Shogo AMANAI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2023",
+    "name": {
+      "ja": "工藤 悠仁",
+      "en": "Yuto KUDO"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2023",
+    "name": {
+      "ja": "守山 新星",
+      "en": "Shinsei MORIYAMA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2023",
+    "name": {
+      "ja": "石舘 正太郎",
+      "en": "Shotaro ISHIDATE"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "筑波大学大学院進学",
+      "en": "Grad student at Univ. Tsukuba"
+    }
+  },
+  {
+    "year": "2023",
+    "name": {
+      "ja": "相馬 竜之助",
+      "en": "Ryunosuke SOMA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2022",
+    "name": {
+      "ja": "鈴木 芹奈",
+      "en": "Serina SUZUKI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2022",
+    "name": {
+      "ja": "永井 恒輝",
+      "en": "Kouki NAGAI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2022",
+    "name": {
+      "ja": "近藤 翔太",
+      "en": "Shota KONDOU"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2022",
+    "name": {
+      "ja": "長村 篤芳",
+      "en": "Atsuyoshi NAGAMURA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2021",
+    "name": {
+      "ja": "佐野 翔一",
+      "en": "Syoichi SANO"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2021",
+    "name": {
+      "ja": "和田 航平",
+      "en": "Kohei WADA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2021",
+    "name": {
+      "ja": "栗田 蒼平",
+      "en": "Sohei KURITA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2021",
+    "name": {
+      "ja": "小林 北斗",
+      "en": "Hokuto KOBAYASHI"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2021",
+    "name": {
+      "ja": "森田 大暉",
+      "en": "Daiki MORITA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東北大学大学院進学",
+      "en": "Grad student at Tohoku Univ."
+    }
+  },
+  {
+    "year": "2020",
+    "name": {
+      "ja": "片山 優菜",
+      "en": "Yuna KATAYAMA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2020",
+    "name": {
+      "ja": "佐々木 遼太",
+      "en": "Ryota SASAKI"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2020",
+    "name": {
+      "ja": "谷原 祐史",
+      "en": "Yuji TANIHARA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2020",
+    "name": {
+      "ja": "金島 遼太",
+      "en": "Ryota KANASHIMA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2020",
+    "name": {
+      "ja": "藤中 崚",
+      "en": "Ryo FUJINAKA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "京都大学大学院進学",
+      "en": "Grad student at Univ. Kyoto"
+    }
+  },
+  {
+    "year": "2019",
+    "name": {
+      "ja": "淺田 祐希",
+      "en": "Yuki ASADA"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2019",
+    "name": {
+      "ja": "岡本 浩大",
+      "en": "Kodai OKAMOTO"
+    },
+    "grade": "M2",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  },
+  {
+    "year": "2019",
+    "name": {
+      "ja": "儀間 智美",
+      "en": "Tomomi GIMA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東北大学大学院進学",
+      "en": "Grad student at Tohoku Univ."
+    }
+  },
+  {
+    "year": "2018",
+    "name": {
+      "ja": "山本 健介",
+      "en": "Kensuke YAMAMOTO"
+    },
+    "grade": "B3",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2017",
+    "name": {
+      "ja": "松下 昂平",
+      "en": "Kohei MATSUSHITA"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "東京大学大学院進学",
+      "en": "Grad student at Univ. Tokyo"
+    }
+  },
+  {
+    "year": "2017",
+    "name": {
+      "ja": "山口 大輔",
+      "en": "Daisuke YAMAGUCHI"
+    },
+    "grade": "B4",
+    "career": {
+      "ja": "就職",
+      "en": "non-academic career"
+    }
+  }
+]

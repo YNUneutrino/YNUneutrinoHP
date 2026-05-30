@@ -13,7 +13,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <!-- ヘッダー -->
 
     <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
     <center>
       <!---  <img src="img/theses.jpg" width = "380px" alt="" class="photo01" border="0" /> --->
@@ -160,7 +160,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <!-- フッター -->
 
     <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
 
     <!-- フッター終わり -->
 

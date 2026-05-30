@@ -18,7 +18,7 @@
     <!-- ヘッダー -->
 
     <?php $lang = 'ja'; ?>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
     <center>
       <img src="/img/annual.jpg" width = "300px" alt="" class="photo01" border="0" />
@@ -55,7 +55,7 @@
     <!-- フッター -->
 
     <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
 
     <!-- フッター終わり -->
 

@@ -13,7 +13,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <!-- ヘッダー -->
 
     <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
     <!-- ヘッダー終わり -->
 
@@ -77,7 +77,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
     <!-- フッター -->
 
     <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
 
     <!-- フッター終わり -->
 

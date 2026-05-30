@@ -73,6 +73,7 @@ function renderMemberRow(table, member) {
     const profile = document.createElement("a");
     profile.href = getValue(member, ["profile", "link"]);
     profile.textContent = "研究データベース@YNU";
+    profile.style.textDecoration = "underline";
     detailsTd.appendChild(profile);
     appendBr(detailsTd);
     appendBr(detailsTd);

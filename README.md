@@ -12,8 +12,7 @@
 ├── ja/              # 日本語ページ
 ├── en/              # 英語ページ
 ├── includes/        # 共通テンプレート
-├── header.php       # ヘッダー共通部品
-├── footer.php       # フッター共通部品
+├── data/            # データベース
 ├── img/             # 画像ファイル
 ├── documents/       # 資料（PDFなど）
 ├── style.css        # 共通スタイル
@@ -46,8 +45,8 @@ news/
 ### 共通部品
 
 * `includes/head.php` : `<head>`要素
-* `header.php` : ナビゲーション・タイトル
-* `footer.php` : フッター
+* `includes/header.php` : ナビゲーション・タイトル
+* `includes/footer.php` : フッター
 
 ### 各ページの基本構造
 

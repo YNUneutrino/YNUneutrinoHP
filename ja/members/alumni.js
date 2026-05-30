@@ -26,26 +26,30 @@ function renderAlumni(alumni) {
   });
   table.appendChild(headerTr);
 
+  let prevYear = null;
+
   alumni.forEach((person) => {
     const tr = document.createElement("tr");
 
+    // 年度が変わったらクラス付与
+    if (prevYear !== null && prevYear !== person.year) {
+      tr.classList.add("year-separator");
+    }
+    prevYear = person.year;
+
     const yearTd = document.createElement("td");
-    yearTd.setAttribute("width", "80");
     yearTd.textContent = `${person.year}年度`;
     tr.appendChild(yearTd);
 
     const nameTd = document.createElement("td");
-    nameTd.setAttribute("width", "150");
     nameTd.textContent = getJa(person.name);
     tr.appendChild(nameTd);
 
     const gradeTd = document.createElement("td");
-    gradeTd.setAttribute("width", "120");
     gradeTd.textContent = `${person.grade}(${person.year}年度)`;
     tr.appendChild(gradeTd);
 
     const careerTd = document.createElement("td");
-    careerTd.setAttribute("width", "210");
     careerTd.textContent = getJa(person.career);
     tr.appendChild(careerTd);
 

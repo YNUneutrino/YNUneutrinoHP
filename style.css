@@ -151,16 +151,21 @@ p {
 #header-menu a {
   color: #ffffff;
   text-decoration: none;
-  /* font-size: 10px; */
-  font-size: 0.75vw;
-  /* font-weight: bold; */
-}
-
-#header-menu a:hover {
-  color: #cccccc;
   font-size: 12px;
+  transition: all 0.2s ease;
 }
 
+#header-menu a:hover,
+#header-menu a.active {
+  color: #cccccc;
+  font-size: 13px;
+}
+
+#header-menu a.active {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 13.5px;
+}
 
 /*---------- コンテンツ ----------*/
 

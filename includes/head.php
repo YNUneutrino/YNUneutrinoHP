@@ -18,5 +18,6 @@ $title = $title ?? 'YNU Neutrino Group';
   <?php endif; ?>
 
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/includes/header.css">
 </head>
 <body>

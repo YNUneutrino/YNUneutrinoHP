@@ -17,7 +17,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
     <div style="text-align: center; clear: both;">
       <img src="/img/hk_image.jpg" width="600px" alt="" class="photo01" border="0"/>
-      <!-- <img src="../img/hk_image.jpg" width="600px" alt="" class="photo01" border="0" /> -->
       <br />
       Hyper-Kamiokande（NIKKEN SEKKEI）
     </div>

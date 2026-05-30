@@ -55,9 +55,9 @@ function is_active($path, $exact = false) {
     <?php
       $current = $_SERVER['REQUEST_URI'];
       if ($lang === 'en') {
-          $switch = str_replace('/en/', '/ja/', $current);
+        $switch = str_replace('/en/', '/ja/', $current);
       } else {
-          $switch = str_replace('/ja/', '/en/', $current);
+        $switch = str_replace('/ja/', '/en/', $current);
       }
     ?>
     <li><a href="<?= $switch ?>"><b>

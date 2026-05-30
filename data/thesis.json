@@ -1,0 +1,530 @@
+[
+  {
+    "year": "2025",
+    "type": "master",
+    "name": {
+      "ja": "佐々木 優斗",
+      "en": "Yuko SASAKI"
+    },
+    "thesis": {
+      "title": "<sup>3</sup>He比例計数管を用いた神岡地下実験室における環境中性子の長期測定と環境要因の影響評価",
+      "file": "/thesis/25sasaki.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "master",
+    "name": {
+      "ja": "鈴木 深大",
+      "en": "Mihiro SUZUKI"
+    },
+    "thesis": {
+      "title": "",
+      "file": ""
+    }
+  },
+  {
+    "year": "2025",
+    "type": "master",
+    "name": {
+      "ja": "髙野 真綸",
+      "en": "Marin TAKANO"
+    },
+    "thesis": {
+      "title": "原子核乾板を用いたニュートリノを伴わない二重ベータ崩壊探索実験のシミュレーションによる評価と厚型乾板の開発",
+      "file": "/thesis/25takano.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "master",
+    "name": {
+      "ja": "堀口 大輔",
+      "en": "Daisuke HORIGUCHI"
+    },
+    "thesis": {
+      "title": "スーパーカミオカンデにおける機械学習を用いた重力崩壊型超新星爆発の方向決定",
+      "file": "/thesis/25horiguchi.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "岩橋 快斗",
+      "en": "Kaito IWAHASHI"
+    },
+    "thesis": {
+      "title": "地上環境における中性子フラックスと宇宙線ミューオンフラックスとの相関測定",
+      "file": "/thesis/25iwahashi.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "北島 碧",
+      "en": "Aoi KITAJIMA"
+    },
+    "thesis": {
+      "title": "高速LEDドライバ回路の製作および特性評価",
+      "file": "/thesis/25kitajima.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "城下 千剣",
+      "en": "Chihaya JOKA"
+    },
+    "thesis": {
+      "title": "T2K実験WAGASCI検出器のタイミングジッタ補正に向けたLEDドライバの有効性評価",
+      "file": "/thesis/25joka.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "佐藤 樹",
+      "en": "Itsuki SATO"
+    },
+    "thesis": {
+      "title": "原子核乾板検出器を用いた0ν2β崩壊探索実験におけるシミュレーションによる性能評価",
+      "file": "/thesis/25sato.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "中西 風花",
+      "en": "Fuka NAKANISHI"
+    },
+    "thesis": {
+      "title": "重力崩壊型超新星爆発観測におけるクラスタリングアルゴリズムを用いた方向再構成手法の開発",
+      "file": "/thesis/25nakanishi.pdf"
+    }
+  },
+  {
+    "year": "2025",
+    "type": "bachelor",
+    "name": {
+      "ja": "橋戸 詞音",
+      "en": "Shion HASHIDO"
+    },
+    "thesis": {
+      "title": "NINJA実験における改良型原子核乾板検出器ECCのシミュレーションによる性能評価",
+      "file": "/thesis/25hashido.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "master",
+    "name": {
+      "ja": "鈴木芹奈",
+      "en": "Serina SUZUKI"
+    },
+    "thesis": {
+      "title": "神岡地下実験室の極低放射能ゲルマニウム検出器におけるバッググラウンドの理解",
+      "file": "/thesis/22suzuki.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "master",
+    "name": {
+      "ja": "永井恒輝",
+      "en": "Kouki NAGAI"
+    },
+    "thesis": {
+      "title": "T2K実験WAGASCI検出器:データ収集系におけるヒット時間情報の較正とビーム取り出し周期の変更に伴うファームウェア改良",
+      "file": "/thesis/22nagai.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "bachelor",
+    "name": {
+      "ja": "伊藤 俊",
+      "en": "Shun ITO"
+    },
+    "thesis": {
+      "title": "NINJA実験における原子核乾板の乳剤層膨潤処理の違いによる角度精度の評価",
+      "file": "/thesis/22itou.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "bachelor",
+    "name": {
+      "ja": "近藤 翔太",
+      "en": "Shota KONDOU"
+    },
+    "thesis": {
+      "title": "地下環境中性子測定に使用する有機液体シンチレーターの純化効果の評価",
+      "file": "/thesis/22kondou.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "bachelor",
+    "name": {
+      "ja": "芝山 凌",
+      "en": "Ryo SHIBAYAMA"
+    },
+    "thesis": {
+      "title": "",
+      "file": "/thesis/22sibayama.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "bachelor",
+    "name": {
+      "ja": "島村 蓮",
+      "en": "Ren SHIMAMURA"
+    },
+    "thesis": {
+      "title": "地震予知に向けたラドン検出装置の開発",
+      "file": "/thesis/22simamura.pdf"
+    }
+  },
+  {
+    "year": "2022",
+    "type": "bachelor",
+    "name": {
+      "ja": "長村 篤芳",
+      "en": "Atsuyoshi NAGAMURA"
+    },
+    "thesis": {
+      "title": "光学シミュレーションを用いた球形液体シンチレータ中性子検出器の性能評価",
+      "file": "/thesis/22nagamura.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "master",
+    "name": {
+      "ja": "佐野翔一",
+      "en": "Syoichi SANO"
+    },
+    "thesis": {
+      "title": "ハイパーカミオカンデ実験のための光電子増倍管の開発とスーパーカミオカンデを用いたガンマ線バースト由来のニュートリノ探索",
+      "file": "/thesis/21sano.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "master",
+    "name": {
+      "ja": "和田航平",
+      "en": "Kohei WADA"
+    },
+    "thesis": {
+      "title": "宇宙素粒子実験のためのAmBe中性子線源の研究",
+      "file": "/thesis/21wada.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "天内昭吾",
+      "en": "Shogo AMANAI"
+    },
+    "thesis": {
+      "title": "神岡地下実験室における 3He 比例計数管による環境中性子測定",
+      "file": "/thesis/21amanai.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "工藤悠仁",
+      "en": "Yuto KUDO"
+    },
+    "thesis": {
+      "title": "T2K実験前置ニュートリノ検出器に使用する半導体型光検出器MPPCのピコ秒パルスレーザーを用いたアフターパルス率の評価",
+      "file": "/thesis/21kudou.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "栗田蒼平",
+      "en": "Sohei KURITA"
+    },
+    "thesis": {
+      "title": "極低バックグラウンド液体シンチレータ中性子検出器の実現に向けた光学シミュレーション",
+      "file": "/thesis/21kurita.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "小林北斗",
+      "en": "Hokuto KOBAYASHI"
+    },
+    "thesis": {
+      "title": "T2K実験WAGASCI検出器フロントエンドエレクトロニクスを用いた電荷測定の線形性評価",
+      "file": "/thesis/21kobayashi.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "森田大暉",
+      "en": "Daiki MORITA"
+    },
+    "thesis": {
+      "title": "鉄 Emulsion Cloud Chamber を用いた大角度陽電子飛跡の再構成",
+      "file": "/thesis/21morita.pdf"
+    }
+  },
+  {
+    "year": "2021",
+    "type": "bachelor",
+    "name": {
+      "ja": "守山 新星",
+      "en": "Shinsei MORIYAMA"
+    },
+    "thesis": {
+      "title": "NINJA 実験 RUN9 で用いたシンチレーショントラッカーの性能評価",
+      "file": "/thesis/21moriyama.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "master",
+    "name": {
+      "ja": "片山 優菜",
+      "en": "Yuna KATAYAMA"
+    },
+    "thesis": {
+      "title": "J-PARC E69 実験（WAGASCIプロジェクト）における読み出し基板開発と最初のニュートリノビーム測定の結果",
+      "file": "/thesis/20katayama.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "master",
+    "name": {
+      "ja": "佐々木 遼太",
+      "en": "Ryota SASAKI"
+    },
+    "thesis": {
+      "title": "地下実験施設における環境中性子測定",
+      "file": "/thesis/20sasaki.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "master",
+    "name": {
+      "ja": "谷原 祐史",
+      "en": "Yuji TANIHARA"
+    },
+    "thesis": {
+      "title": "電子ニュートリノ反応測定に向けた原子核乾板を用いた運動量測定と粒子識別",
+      "file": "/thesis/20tanihara.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "bachelor",
+    "name": {
+      "ja": "金島 遼太",
+      "en": "Ryota KANESHIMA"
+    },
+    "thesis": {
+      "title": "NINJA実験におけるシンチレーショントラッカーのニュートリノビーム測定に向けた運用試験",
+      "file": "/thesis/20kanesima.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "bachelor",
+    "name": {
+      "ja": "鈴木 芹奈",
+      "en": "Serina SUZUKI"
+    },
+    "thesis": {
+      "title": "低コスト・小型ラドン検出器の製作及び性能評価",
+      "file": "/thesis/20suzuki.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "bachelor",
+    "name": {
+      "ja": "永井 恒輝",
+      "en": "Kouki NAGAI"
+    },
+    "thesis": {
+      "title": "T2K実験の新型前置ニュートリノ検出器SuperFGDに使用する半導体型光検出器MPPCの性能評価",
+      "file": "/thesis/20nagai.pdf"
+    }
+  },
+  {
+    "year": "2020",
+    "type": "bachelor",
+    "name": {
+      "ja": "藤中 崚",
+      "en": "Ryo FUJINAKA"
+    },
+    "thesis": {
+      "title": "NINJA 実験におけるシンチレーショントラッカーのためのビームスピル番号受信プログラムの開発",
+      "file": "/thesis/20fuzinaka.pdf"
+    }
+  },
+  {
+    "year": "2019",
+    "type": "master",
+    "name": {
+      "ja": "淺田 祐希",
+      "en": "Yuki ASADA"
+    },
+    "thesis": {
+      "title": "J-PARC E69実験でのニュートリノと原子核の反応断面積測定に向けたニュートリノ検出器の開発および性能評価",
+      "file": "/thesis/19asada.pdf"
+    }
+  },
+  {
+    "year": "2019",
+    "type": "master",
+    "name": {
+      "ja": "岡本 浩大",
+      "en": "Kodai OKAMOTO"
+    },
+    "thesis": {
+      "title": "ハイパーカミオカンデによる超新星背景ニュートリノ観測に向けた光センサのノイズ低減",
+      "file": "/thesis/19okamoto.pdf"
+    }
+  },
+  {
+    "year": "2019",
+    "type": "bachelor",
+    "name": {
+      "ja": "儀間 智美",
+      "en": "Tomomi GIMA"
+    },
+    "thesis": {
+      "title": "PINフォトダイオードを用いたラドン検出器の開発",
+      "file": "/thesis/19gima.pdf"
+    }
+  },
+  {
+    "year": "2019",
+    "type": "bachelor",
+    "name": {
+      "ja": "佐野 翔一",
+      "en": "Shoichi SANO"
+    },
+    "thesis": {
+      "title": "ハイパーカミオカンデにおけるPMTガラス素材の透過率測定",
+      "file": "/thesis/19sano.pdf"
+    }
+  },
+  {
+    "year": "2018",
+    "type": "bachelor",
+    "name": {
+      "ja": "片山 優菜",
+      "en": "Yuna KATAYAMA"
+    },
+    "thesis": {
+      "title": "J-PARC E69実験(WAGASCIプロジェクト)におけるエレクトロニクスの性能試験",
+      "file": "/thesis/18ykatayama.pdf"
+    }
+  },
+  {
+    "year": "2018",
+    "type": "bachelor",
+    "name": {
+      "ja": "佐々木 遼太",
+      "en": "Ryota SASAKI"
+    },
+    "thesis": {
+      "title": "液体シンチレータと比例計数管を用いた中性子バックグラウンドの測定とその理解",
+      "file": "/thesis/18rsasaki.pdf"
+    }
+  },
+  {
+    "year": "2018",
+    "type": "bachelor",
+    "name": {
+      "ja": "谷原 祐史",
+      "en": "Yuji TANIHARA"
+    },
+    "thesis": {
+      "title": "J-PARC E71実験（NINJAプロジェクト）へ向けた新型原子核乾板の製作及びCERNビーム照射実験による既存の原子核乾板の性能評価",
+      "file": "/thesis/18ytanihara.pdf"
+    }
+  },
+  {
+    "year": "2018",
+    "type": "bachelor",
+    "name": {
+      "ja": "山本 健介",
+      "en": "Kensuke YAMAMOTO"
+    },
+    "thesis": {
+      "title": "J-PARC E69実験(WAGASCIプロジェクト)における高速応答シンチレータの性能評価とシミュレーションによる荷電粒子の運動方向同定能力の評価",
+      "file": "/thesis/18kyamamoto.pdf"
+    }
+  },
+  {
+    "year": "2017",
+    "type": "bachelor",
+    "name": {
+      "ja": "淺田 祐希",
+      "en": "Yuuki ASADA"
+    },
+    "thesis": {
+      "title": "J-PARC T59実験(WAGASCIプロジェクト)における横方向ミューオン検出器sideMRDの建設及び宇宙線を用いた性能評価試験",
+      "file": "/thesis/17yasada.pdf"
+    }
+  },
+  {
+    "year": "2017",
+    "type": "bachelor",
+    "name": {
+      "ja": "岡本 浩大",
+      "en": "Kodai OKAMOTO"
+    },
+    "thesis": {
+      "title": "J-PARC T59実験(WAGASCI)の横方向ミューオン検出器用シンチレータの性能評価",
+      "file": "/thesis/17kokamoto.pdf"
+    }
+  },
+  {
+    "year": "2017",
+    "type": "bachelor",
+    "name": {
+      "ja": "松下 昂平",
+      "en": "Kohei MATSUSHITA"
+    },
+    "thesis": {
+      "title": "J-PARC T59実験におけるフロントエンドエレクトロニクスの性能試験およびニュートリノ反応における原子核効果のシミュレーション研究",
+      "file": "/thesis/17kmatsushita.pdf"
+    }
+  },
+  {
+    "year": "2017",
+    "type": "bachelor",
+    "name": {
+      "ja": "山口 大輔",
+      "en": "Daisuke YAMAGUCHI"
+    },
+    "thesis": {
+      "title": "J-PARC T59実験(WAGASCIプロジェクト)横方向ミューオン検出器のデータ収集システムの構築及びフロントエンドエレクトロニクスの性能試験",
+      "file": "/thesis/17dyamaguchi.pdf"
+    }
+  }
+]

@@ -1,6 +1,6 @@
 # YNU Neutrino Group Website
 
-横浜国立大学 南野・Bronner研究室の公式Webサイトのソースコードです。
+横浜国立大学 南野・Bronner研究室の[公式Webサイト](https://neutrino.ynu.ac.jp/)のソースコードです。
 本リポジトリでは、サイトのHTML/PHP/CSSおよび各種コンテンツを管理しています。
 
 ---
@@ -86,7 +86,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 
 ## 4. 編集方法
 
-1. ローカル環境の好きな場所（例：~/lab_HP）にリポジトリをclone
+1. ローカル環境の好きな場所（例：`~/lab_HP`）にリポジトリをclone
 2. 自分用のブランチを作成
 3. ファイルを編集
 4. 変更をcommit
@@ -160,6 +160,6 @@ Ctrl + C
 ### ‼️公開前に必ずローカル環境での動作確認を行ってください。‼️
 
 1. YNUのサーバーにssh接続（接続方法は、平田まで問い合わせてください。）
-2. ./update_HP.shを実行
+2. `~/update_HP.sh`を実行
 
 

@@ -70,7 +70,8 @@ function renderMemberRow(table, member) {
   if (profile) {
     const profile = document.createElement("a");
     profile.href = getValue(member, ["profile", "link"]);
-    profile.textContent = "研究データベース@YNU";
+    profile.textContent = "Research database@YNU";
+    profile.style.textDecoration = "underline";
     detailsTd.appendChild(profile);
     appendBr(detailsTd);
     appendBr(detailsTd);
@@ -82,7 +83,7 @@ function renderMemberRow(table, member) {
   }
 
   if (member.phone) {
-    detailsTd.append("電話: " + member.phone);
+    detailsTd.append("Tel: " + member.phone);
     appendBr(detailsTd);
   }
 

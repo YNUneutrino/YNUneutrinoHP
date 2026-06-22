@@ -5,6 +5,7 @@ $title = $title ?? 'YNU Neutrino Group';
 
 <!DOCTYPE html>
 <html lang="<?= $lang ?>">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +19,6 @@ $title = $title ?? 'YNU Neutrino Group';
   <?php endif; ?>
 
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/includes/header.css">
 </head>
+
 <body>

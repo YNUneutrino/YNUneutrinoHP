@@ -5,31 +5,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 
 
-<body>
+<div id="main">
 
-  <!-- メイン -->
-
-  <div id="main">
-
-
-    <!-- ヘッダー -->
-
-    <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
-
-    <center>
-      <img src="/img/annual.jpg" width = "300px" alt="" class="photo01" border="0" />
-    </center>
-
-    <!-- ヘッダー終わり -->
+  <!-- HEADER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
 
-    <!-- コンテンツ -->
+  <!-- MAIN CONTENT -->
+  <center>
+    <img src="/img/annual.jpg" width="300px" alt="" class="photo01" border="0" />
+  </center>
 
-    <!-- メインコンテンツ -->
-
-    <div id="container">
-      <div id="contents">
+  <div id="container">
+    <div id="contents">
 
       <h2>年次報告</h2>
 
@@ -38,27 +26,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         <li><a href="documents/minamino_lab_2016.pdf">2016年度<a></li>
       </ul>
 
-
-      <br />
-
-      </div>
-
-    <!-- メインコンテンツ終わり -->
-
+      <br/>
     </div>
-
-    <!-- コンテンツ終わり -->
-
-    <!-- フッター -->
-
-    <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
-
-    <!-- フッター終わり -->
-
   </div>
 
-<!-- メイン終わり -->
 
-</body>
-</html>
+  <!-- FOOTER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+
+</div>
+
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

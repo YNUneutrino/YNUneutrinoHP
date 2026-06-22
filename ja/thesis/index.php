@@ -4,47 +4,32 @@ $title = '学位論文 - 南野・Bronner研@YNU';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 
-<body>
 
-  <!-- メイン -->
+<div id="main">
 
-  <div id="main">
+  <!-- HEADER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
-    <!-- ヘッダー -->
 
-    <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
+  <!-- MAIN CONTENT -->
+  <center>
+    <img src="/img/theses.jpg" width="300px" alt="" class="photo01" border="0" />
+  </center>
 
-    <center>
-      <img src="/img/theses.jpg" width="300px" alt="" class="photo01" border="0" />
-    </center>
+  <div id="container">
+    <div id="contents">
 
-    <!-- ヘッダー終わり -->
+      <div id="thesis-area"></div>
+      <script src="script.js"></script>
 
-    <!-- コンテンツ -->
-
-    <div id="container">
-      <div id="contents">
-        
-        <div id="thesis-area"></div>
-        <script src="script.js"></script>
-      
-      </div>
     </div>
-
-    <!-- コンテンツ終わり -->
-
-    <!-- フッター -->
-
-    <?php $lang = 'ja'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
-
-    <!-- フッター終わり -->
-
   </div>
 
-  <!-- メイン終わり -->
 
-</body>
+  <!-- FOOTER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
 
-</html>
+</div>
+
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

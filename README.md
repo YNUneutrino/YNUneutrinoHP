@@ -40,15 +40,26 @@ news/
 
 ## 2. テンプレート構成
 
-本サイトはPHPによる簡易テンプレート構成を採用しています。
+本サイトは PHP によるシンプルなテンプレート構成を採用しています。
+共通部分を `includes/` に分離し、各ページではコンテンツのみを記述します。
 
 ### 共通部品
 
-* `includes/head.php` : `<head>`要素
-* `includes/header.php` : ナビゲーション・タイトル
-* `includes/footer.php` : フッター
+* `includes/head.php`
+  HTMLの開始部分（`<!DOCTYPE>`, `<html>`, `<head>`, `<body>`）を定義
+
+* `includes/header.php`
+  サイト共通のヘッダー（ナビゲーション・タイトル）
+
+* `includes/footer.php`
+  フッターの表示内容（住所・コピーライト等）
+
+* `includes/foot.php`
+  HTMLの終了部分（`</body>`, `</html>`）
 
 ### 各ページの基本構造
+
+各ページでは以下の順序で読み込みを行います。
 
 ```php
 <?php
@@ -57,33 +68,36 @@ $title = 'ページタイトル';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 
-<!-- コンテンツ -->
+<div id="main">
+
+  <!-- HEADER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
+
+  <!-- MAIN CONTENT -->
+  <!-- 各ページ固有の内容をここに記述 -->
+
+  <!-- FOOTER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+
+</div>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>
 ```
 
----
+### 注意事項
 
-## 3. パスのルール
+* `head.php` で `<body>` が開始され、`foot.php` で終了します
+* `footer.php` には `</body>` や `</html>` を含めないでください
+* HTML構造を崩さないため、includeの順序は必ず守ってください
 
-本サイトでは以下を原則とします：
+### 設計方針
 
-* CSS / 画像など → **絶対パス**
-
-  ```
-  /style.css
-  /img/sample.jpg
-  ```
-
-* PHP include → **DOCUMENT_ROOT基準**
-
-  ```php
-  include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
-  ```
-
-これにより、ディレクトリ構造変更時の不具合を防ぎます。
+* 共通レイアウトとコンテンツを分離することで保守性を向上させています
+* 小規模サイト向けの軽量構成であり、フレームワークは使用していません
 
 ---
 
-## 4. 編集方法
+## 3. 編集方法
 
 1. ローカル環境の好きな場所（例：`~/lab_HP`）にリポジトリをclone
 2. 自分用のブランチを作成
@@ -113,7 +127,7 @@ git push origin feature/<名前>
 
 ---
 
-## 5. ローカルでの動作確認（PHPサーバー）
+## 4. ローカルでの動作確認（PHPサーバー）
 
 本サイトはPHPを使用しているため、ブラウザで直接ファイルを開く（`file://`）だけでは正しく動作しません。
 ローカルで確認する場合は、簡易PHPサーバーを起動してください。
@@ -154,11 +168,9 @@ Ctrl + C
 
 ---
 
-## 6. 公開Webサイトへの反映方法
+## 5. 公開Webサイトへの反映方法
 
 ### ‼️公開前に必ずローカル環境での動作確認を行ってください。‼️
 
 1. YNUのサーバーにssh接続（接続方法は、平田まで問い合わせてください。）
 2. `~/update_HP.sh`を実行
-
-

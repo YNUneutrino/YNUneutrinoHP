@@ -4,51 +4,29 @@ $title = 'News - Minamino & Bronner lab@YNU';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 
-<body>
 
-  <!-- メイン -->
+<div id="main">
 
-  <div id="main">
-
-    <!-- ヘッダー -->
-
-    <?php $lang = 'en'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
-
-    <!-- ヘッダー終わり -->
+  <!-- HEADER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
 
-    <!-- コンテンツ -->
+  <!-- MAIN CONTENT -->
+  <div id="container">
+    <div id="contents">
+      <h2>News</h2>
 
-    <!-- メインコンテンツ -->
+      <?php include 'news_content.html'; ?>
 
-    <div id="container">
-      <div id="contents">
-        <h2>News</h2>
-
-        <?php include 'news_content.html'; ?>
-
-        <br />
-      </div>
-
-      <!-- メインコンテンツ終わり -->
-
-
+      <br />
     </div>
-
-    <!-- コンテンツ終わり -->
-
-    <!-- フッター -->
-
-    <?php $lang = 'en'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
-
-    <!-- フッター終わり -->
-
   </div>
 
-  <!-- メイン終わり -->
 
-</body>
+  <!-- FOOTER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+  
+</div>
 
-</html>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

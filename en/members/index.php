@@ -4,50 +4,36 @@ $title = 'Members - Minamino & Bronner lab@YNU';
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 ?>
 
-<body>
 
-  <!-- メイン -->
+<div id="main">
 
-  <div id="main">
+  <!-- HEADER -->
+  <?php $lang = 'en'; ?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
-    <!-- ヘッダー -->
 
-    <?php $lang = 'en'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
+  <!-- MAIN CONTENT -->
+  <div id="container">
+    <div id="contents">
 
-    <!-- ヘッダー終わり -->
+      <h2>Members</h2>
+        <div id="members-area"></div>
+        <script src="members.js"></script>
 
-    <!-- コンテンツ -->
+      <br>
 
-    <div id="container">
-      <div id="contents">
+      <h2>OB/OG</h2>
+        <div id="alumni-area"></div>
+        <script src="alumni.js"></script>
 
-        <h2>Members</h2>
-          <div id="members-area"></div>
-          <script src="members.js"></script>
-
-        <br>
-
-        <h2>OB/OG</h2>
-          <div id="alumni-area"></div>
-          <script src="alumni.js"></script>
-
-        <br>
-    </div>
-
-    <!-- コンテンツ終わり -->
-
-    <!-- フッター -->
-
-    <?php $lang = 'en'; ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
-
-    <!-- フッター終わり -->
-
+      <br>
   </div>
 
-  <!-- メイン終わり -->
 
-</body>
+  <!-- FOOTER -->
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+  
+</div>
 
-</html>
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>

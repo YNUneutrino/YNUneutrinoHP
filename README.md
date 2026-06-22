@@ -57,8 +57,6 @@ news/
 * `includes/foot.php`
   HTMLの終了部分（`</body>`, `</html>`）
 
----
-
 ### 各ページの基本構造
 
 各ページでは以下の順序で読み込みを行います。
@@ -86,15 +84,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/foot.php'; ?>
 ```
 
----
-
 ### 注意事項
 
 * `head.php` で `<body>` が開始され、`foot.php` で終了します
 * `footer.php` には `</body>` や `</html>` を含めないでください
 * HTML構造を崩さないため、includeの順序は必ず守ってください
-
----
 
 ### 設計方針
 

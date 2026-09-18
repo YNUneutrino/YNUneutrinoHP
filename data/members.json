@@ -174,40 +174,6 @@
   {
     "group": "student",
     "name" : {
-      "ja" : "Mara PRIPON",
-      "kana" : "マラ プリポン",
-      "en" : "Mara PRIPON"
-    },
-    "role": {
-      "ja" : "M1",
-      "en" : "M1"
-    },
-    "img": "26mara.jpg",
-    "profile": "",
-    "email": "",
-    "research": "",
-    "comment": ""
-  },
-  {
-    "group": "student",
-    "name" : {
-      "ja" : "Clément BOUQUET",
-      "kana" : "クレメン ブケ",
-      "en" : "Clément BOUQUET"
-    },
-    "role": {
-      "ja" : "M1",
-      "en" : "M1"
-    },
-    "img": "26clement.jpg",
-    "profile": "",
-    "email": "",
-    "research": "",
-    "comment": ""
-  },
-  {
-    "group": "student",
-    "name" : {
       "ja" : "小島 滉人",
       "kana" : "こじま ひろと",
       "en" : "Hiroto KOJIMA"

@@ -430,8 +430,9 @@ table.type05 tr.year-separator td {
   }
 
   img.photo01 {
-    width: auto;
-    max-width: 100%;
+    width: 90vw;
+    max-width: 90vw;
+    height: auto;
   }
 
   table,
@@ -532,9 +533,76 @@ table.type05 tr.year-separator td {
     opacity: 0.8;
   }
 
-  table.type05 th:nth-child(2) {
-    width: auto;
-    white-space: normal;
+  table.type05 {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    table-layout: auto;
+  }
+
+  table.type05 thead {
+    display: none;
+  }
+
+  table.type05 tbody {
+    display: block;
+    width: 100%;
+  }
+
+  table.type05 tr {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dfe7f1;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    margin: 0 0 12px;
+    padding: 10px 12px;
+  }
+
+  table.type05 tr.year-separator {
+    margin-top: 0;
+  }
+
+  table.type05 td {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 0;
+    border: 0;
+    border-bottom: 1px solid #edf1f6;
+    color: #1a2f3c;
+    line-height: 1.5;
+  }
+
+  table.type05 td:last-child {
+    border-bottom: 0;
+  }
+
+  table.type05 td::before {
+    content: attr(data-label);
+    flex: 0 0 72px;
+    color: #4a5d72;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.8;
+  }
+
+  table.type05 td:nth-child(1)::before {
+    content: "年度";
+  }
+
+  table.type05 td:nth-child(2)::before {
+    content: "氏名";
+  }
+
+  table.type05 td:nth-child(3)::before {
+    content: "異動前";
+  }
+
+  table.type05 td:nth-child(4)::before {
+    content: "異動後";
   }
 
   .member-name {

@@ -15,21 +15,16 @@ function is_active($path, $exact = false) {
 
 
 <div id="header">
-
-  <table border="0" cellpadding="0" cellspacing="0" width="800">
-    <tr>
-      <td>
-        <h2>
-          <?php if ($lang === 'en'): ?>
-            Neutrino and Astroparticle Physics Laboratory<br>Minamino & Bronner lab＠Yokohama National University
-          <?php else: ?>
-            ニュートリノ・宇宙素粒子物理学実験<br>南野・Bronner研究室＠横浜国立大学(YNU) 理工学部・理工学府
-          <?php endif; ?>
-        </h2>
-      </td>
-    </tr>
-  </table>
-
+  <div id="header-inner">
+    <h2>
+      <?php if ($lang === 'en'): ?>
+        Neutrino and Astroparticle Physics Laboratory<br>Minamino & Bronner lab＠Yokohama National University
+      <?php else: ?>
+        ニュートリノ・宇宙素粒子物理学実験<br>
+        南野・Bronner研究室＠横浜国立大学(YNU)<span class="desktop-title-space"> </span><br class="mobile-title-break"><span class="title-dept">理工学部・理工学府</span>
+      <?php endif; ?>
+    </h2>
+  </div>
 </div>
 
 <div id="header-menu">

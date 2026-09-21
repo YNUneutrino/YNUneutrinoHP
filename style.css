@@ -46,12 +46,30 @@ a:hover {
   background: #fff url(img/header.jpg) no-repeat;
 }
 
+#header-inner {
+  width: 100%;
+  text-align: center;
+}
+
 #header h2 {
   margin: 0;
   padding: 10px;
   text-align: center;
   font-size: 20px;
   color: #666;
+}
+
+.mobile-title-break {
+  display: none;
+}
+
+.desktop-title-space {
+  display: inline;
+}
+
+.title-dept {
+  display: inline;
+  white-space: nowrap;
 }
 
 /* ---------- Navigation ---------- */
@@ -204,10 +222,143 @@ table.type05 tr.year-separator td {
   border-top: 2px dotted #999;
 }
 
+/* ---------- Responsive: Smartphone ---------- */
+@media (max-width: 768px) {
+  #main {
+    max-width: 100%;
+  }
+
+  #container {
+    padding: 12px;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 80px;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+  }
+
+  #header-inner {
+    width: 100%;
+    text-align: center;
+  }
+
+  #header h2 {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 12px 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .mobile-title-break,
+  .mobile-address-break {
+    display: block;
+  }
+
+  .desktop-title-space {
+    display: none;
+  }
+
+  .title-dept {
+    display: block;
+    white-space: normal;
+  }
+
+  #header-menu {
+    padding: 10px 12px;
+  }
+
+  #header-menu ul {
+    gap: 8px 10px;
+    justify-content: center;
+  }
+
+  #header-menu a {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+
+  #contents {
+    font-size: 13px;
+  }
+
+  #contents h2 {
+    font-size: 15px;
+    padding: 10px 12px;
+  }
+
+  #contents h3 {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  #contents img,
+  #contents img.photo,
+  #contents img.picture {
+    float: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 12px auto;
+  }
+
+  table,
+  table.type03,
+  table.type05 {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table.type03 th,
+  table.type03 td,
+  table.type05 th,
+  table.type05 td {
+    padding: 8px 10px;
+    word-break: break-word;
+  }
+
+  table.type03 th {
+    width: auto;
+  }
+
+  table.type05 th:nth-child(2) {
+    width: auto;
+    white-space: normal;
+  }
+
+  .member-name {
+    font-size: 1.05em;
+  }
+}
+
 /* ---------- Footer ---------- */
+.mobile-address-break {
+  display: none;
+}
+
 #footer {
   text-align: center;
   padding: 30px 10px;
   font-size: 12px;
   background: #ccc;
+}
+
+@media (max-width: 768px) {
+  .mobile-address-break {
+    display: block;
+  }
+
+  #footer {
+    line-height: 1.8;
+  }
 }

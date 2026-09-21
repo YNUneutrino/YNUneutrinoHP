@@ -79,6 +79,10 @@ a:hover {
   padding: 14px 20px;
 }
 
+#header-nav {
+  display: block;
+}
+
 #header-menu ul {
   margin: 0;
   padding: 0;
@@ -97,6 +101,12 @@ a:hover {
   padding: 4px 6px;
   border-radius: 4px;
   transition: all 0.2s ease;
+}
+
+.menu-toggle,
+.menu-close,
+.menu-overlay {
+  display: none;
 }
 
 #header-menu a:hover {
@@ -153,6 +163,20 @@ a:hover {
   margin: 0 10px 10px 0;
 }
 
+#contents img.neutrino-3mix {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+}
+
+@media (max-width: 768px) {
+  #contents img.neutrino-3mix {
+    width: 160px;
+  }
+}
+
 /* ---------- Tables ---------- */
 table {
   width: 100%;
@@ -179,9 +203,8 @@ table.type03 th {
 }
 
 .member-name {
-  font-size: 1.2em;  /* 好みで調整 */
+  font-size: 1.2em;
 }
-
 
 
 table.type05 {
@@ -273,17 +296,112 @@ table.type05 tr.year-separator td {
   }
 
   #header-menu {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     padding: 10px 12px;
   }
 
-  #header-menu ul {
-    gap: 8px 10px;
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 42px;
+    height: 42px;
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    inset: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    z-index: 1100;
+  }
+
+  .menu-overlay.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #header-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(82vw, 320px);
+    height: 100vh;
+    background: #fff;
+    box-shadow: -6px 0 18px rgba(0, 0, 0, 0.18);
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    z-index: 1200;
+    margin-top: 0;
+    padding: 16px 0 20px;
+  }
+
+  #header-nav.open {
+    transform: translateX(0);
+  }
+
+  .menu-close {
+    display: block;
+    align-self: flex-end;
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+    line-height: 1;
+    color: #333;
+    margin: 0 14px 8px 0;
+    cursor: pointer;
+  }
+
+  #header-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  #header-menu li {
+    width: 100%;
+    border-bottom: 1px solid #eee;
   }
 
   #header-menu a {
-    font-size: 12px;
-    padding: 4px 6px;
+    display: block;
+    color: #1b1b1b;
+    font-size: 14px;
+    padding: 14px 18px;
+    background: #fff;
+  }
+
+  #header-menu a:hover {
+    background: #f5f5f5;
+    color: #004080;
   }
 
   #contents {
@@ -319,10 +437,11 @@ table.type05 tr.year-separator td {
   table,
   table.type03,
   table.type05 {
-    display: block;
+    display: table;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
   }
 
   table.type03 th,
@@ -334,7 +453,83 @@ table.type05 tr.year-separator td {
   }
 
   table.type03 th {
+    width: 120px;
+    min-width: 120px;
+  }
+
+  table.type03 th:first-child,
+  table.type03 th:first-child img {
+    width: 120px;
+    max-width: 100%;
+  }
+
+  table.type03 th:first-child img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  table.type03 td:nth-child(2),
+  table.type03 td:nth-child(3) {
     width: auto;
+  }
+
+  table.type03 tr.member-mobile-head,
+  table.type03 tr.member-mobile-student {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-top: 1px solid #ccc;
+  }
+
+  table.type03 tr.member-mobile-head th,
+  table.type03 tr.member-mobile-head td,
+  table.type03 tr.member-mobile-student th,
+  table.type03 tr.member-mobile-student td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0;
+    padding: 10px;
+  }
+
+  table.type03 tr.member-mobile-head th,
+  table.type03 tr.member-mobile-student th {
+    width: 120px;
+    min-width: 120px;
+    flex: 0 0 120px;
+    padding-right: 0;
+    vertical-align: middle;
+  }
+
+  table.type03 tr.member-mobile-head td,
+  table.type03 tr.member-mobile-student td {
+    flex: 1 1 auto;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  table.type03 .member-mobile-detail td {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  table.type03 .member-role {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.88em;
+    line-height: 1.4;
+  }
+
+  table.type03 .member-kana {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.9em;
+    opacity: 0.8;
   }
 
   table.type05 th:nth-child(2) {
@@ -343,7 +538,10 @@ table.type05 tr.year-separator td {
   }
 
   .member-name {
+    display: block;
     font-size: 1.05em;
+    line-height: 1.5;
+    margin-top: 4px;
   }
 }
 

@@ -163,6 +163,20 @@ a:hover {
   margin: 0 10px 10px 0;
 }
 
+#contents img.neutrino-3mix {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+}
+
+@media (max-width: 768px) {
+  #contents img.neutrino-3mix {
+    width: 160px;
+  }
+}
+
 /* ---------- Tables ---------- */
 table {
   width: 100%;
@@ -189,9 +203,10 @@ table.type03 th {
 }
 
 .member-name {
-  font-size: 1.2em;  /* 好みで調整 */
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1.4;
 }
-
 
 
 table.type05 {
@@ -424,10 +439,11 @@ table.type05 tr.year-separator td {
   table,
   table.type03,
   table.type05 {
-    display: block;
+    display: table;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+    table-layout: fixed;
   }
 
   table.type03 th,
@@ -439,6 +455,24 @@ table.type05 tr.year-separator td {
   }
 
   table.type03 th {
+    width: 120px;
+    min-width: 120px;
+  }
+
+  table.type03 th:first-child,
+  table.type03 th:first-child img {
+    width: 120px;
+    max-width: 100%;
+  }
+
+  table.type03 th:first-child img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  table.type03 td:nth-child(2),
+  table.type03 td:nth-child(3) {
     width: auto;
   }
 
@@ -448,7 +482,10 @@ table.type05 tr.year-separator td {
   }
 
   .member-name {
+    display: block;
     font-size: 1.05em;
+    line-height: 1.5;
+    margin-top: 4px;
   }
 }
 

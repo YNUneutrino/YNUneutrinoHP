@@ -25,7 +25,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
       <p>南野・Bronner研究室@横浜国立大学(YNU)は、ニュートリノ研究を中心とした宇宙素粒子物理学実験を通じて、宇宙を支配する根本的な法則を探求しています。</p>
 
       <center>
-        <img src="/img/neutrino-3mix.jpg" width="200px" alt="" class="photo01" border="0" />
+        <img src="/img/neutrino-3mix.jpg" alt="" class="neutrino-3mix" />
       </center>
 
       <br />

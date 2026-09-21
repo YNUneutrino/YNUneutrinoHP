@@ -27,8 +27,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';
         universe through particle physics experiments focusing on neutrino research.</p>
 
       <center>
-        <img src="/img/neutrino-3mix.jpg" width="200px" alt="" class="photo01" border="0" />
-
+        <img src="/img/neutrino-3mix.jpg" alt="" class="neutrino-3mix" />
       </center>
 
       <br />

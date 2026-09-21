@@ -351,7 +351,7 @@ table.type05 tr.year-separator td {
     width: min(82vw, 320px);
     height: 100vh;
     background: #fff;
-    box-shadow: -6px 0 18px rgba(0, 0, 0, 0.18);
+    box-shadow: none;
     transform: translateX(100%);
     transition: transform 0.25s ease;
     display: flex;

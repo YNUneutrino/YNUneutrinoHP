@@ -302,12 +302,18 @@ table.type05 tr.year-separator td {
 
   #contents img,
   #contents img.photo,
-  #contents img.picture {
+  #contents img.picture,
+  .photo01 {
     float: none;
     display: block;
     max-width: 100%;
     height: auto;
     margin: 12px auto;
+  }
+
+  img.photo01 {
+    width: auto;
+    max-width: 100%;
   }
 
   table,

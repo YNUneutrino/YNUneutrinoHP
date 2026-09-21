@@ -203,9 +203,7 @@ table.type03 th {
 }
 
 .member-name {
-  display: inline-block;
   font-size: 1.2em;
-  line-height: 1.4;
 }
 
 
@@ -474,6 +472,64 @@ table.type05 tr.year-separator td {
   table.type03 td:nth-child(2),
   table.type03 td:nth-child(3) {
     width: auto;
+  }
+
+  table.type03 tr.member-mobile-head,
+  table.type03 tr.member-mobile-student {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-top: 1px solid #ccc;
+  }
+
+  table.type03 tr.member-mobile-head th,
+  table.type03 tr.member-mobile-head td,
+  table.type03 tr.member-mobile-student th,
+  table.type03 tr.member-mobile-student td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 0;
+    padding: 10px;
+  }
+
+  table.type03 tr.member-mobile-head th,
+  table.type03 tr.member-mobile-student th {
+    width: 120px;
+    min-width: 120px;
+    flex: 0 0 120px;
+    padding-right: 0;
+    vertical-align: middle;
+  }
+
+  table.type03 tr.member-mobile-head td,
+  table.type03 tr.member-mobile-student td {
+    flex: 1 1 auto;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  table.type03 .member-mobile-detail td {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  table.type03 .member-role {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.88em;
+    line-height: 1.4;
+  }
+
+  table.type03 .member-kana {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.9em;
+    opacity: 0.8;
   }
 
   table.type05 th:nth-child(2) {

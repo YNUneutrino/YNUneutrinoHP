@@ -108,10 +108,94 @@
     }
   },
   {
+    "year": "2024",
+    "type": "master",
+    "name": {
+      "ja": "伊藤 俊",
+      "en": "Shu ITO"
+    },
+    "thesis": {
+      "title": "NINJA実験2023年度Physics run bにおけるシンチレーショントラッカー検出器の運用と解析",
+      "file": "/thesis/24itou.pdf"
+    }
+  },
+  {
+    "year": "2024",
+    "type": "master",
+    "name": {
+      "ja": "芝山 凌",
+      "en": "Ryo SHIBAYAMA"
+    },
+    "thesis": {
+      "title": "",
+      "file": ""
+    }
+  },
+  {
+    "year": "2024",
+    "type": "master",
+    "name": {
+      "ja": "島村 蓮",
+      "en": "Ren SHIMAMURA"
+    },
+    "thesis": {
+      "title": "スーパーカミオカンデにおける宇宙線ミューオン測定と中空糸膜モジュールを用いたラドン濃度測定",
+      "file": "/thesis/24shimamura.pdf"
+    }
+  },
+  {
+    "year": "2024",
+    "type": "bachelor",
+    "name": {
+      "ja": "猪俣 侑希",
+      "en": "Yuki INOMATA"
+    },
+    "thesis": {
+      "title": "ピコパルスレーザーを用いた光検出器の電子走行時間拡がりの測定",
+      "file": "/thesis/24inomata.pdf"
+    }
+  },
+  {
+    "year": "2024",
+    "type": "bachelor",
+    "name": {
+      "ja": "太田 幸寿",
+      "en": "Yukitoshi OTA"
+    },
+    "thesis": {
+      "title": "有機液体シンチレータ中性子検出器のバックグラウンド低減に向けたPTFEの反射率測定",
+      "file": "/thesis/24ohta.pdf"
+    }
+  },
+  {
+    "year": "2024",
+    "type": "bachelor",
+    "name": {
+      "ja": "橋爪 康希",
+      "en": "Koki HASHIZUME"
+    },
+    "thesis": {
+      "title": "MPPCの光量に対する線形応答性の評価",
+      "file": "/thesis/24hashizume.pdf"
+    }
+  },
+  {
+    "year": "2024",
+    "type": "bachelor",
+    "name": {
+      "ja": "平田 大悟",
+      "en": "Daigo HIRATA"
+    },
+    "thesis": {
+      "title": "T2K実験WAGASCI検出器の時間分解能評価に向けた試験環境の構築および評価",
+      "file": "/thesis/24hirata.pdf"
+    }
+  },
+  {
     "year": "2022",
     "type": "master",
     "name": {
-      "ja": "鈴木芹奈",
+      "ja": "鈴木 芹奈",
       "en": "Serina SUZUKI"
     },
     "thesis": {
@@ -123,7 +207,7 @@
     "year": "2022",
     "type": "master",
     "name": {
-      "ja": "永井恒輝",
+      "ja": "永井 恒輝",
       "en": "Kouki NAGAI"
     },
     "thesis": {
@@ -195,7 +279,7 @@
     "year": "2021",
     "type": "master",
     "name": {
-      "ja": "佐野翔一",
+      "ja": "佐野 翔一",
       "en": "Syoichi SANO"
     },
     "thesis": {
@@ -207,7 +291,7 @@
     "year": "2021",
     "type": "master",
     "name": {
-      "ja": "和田航平",
+      "ja": "和田 航平",
       "en": "Kohei WADA"
     },
     "thesis": {
@@ -219,7 +303,7 @@
     "year": "2021",
     "type": "bachelor",
     "name": {
-      "ja": "天内昭吾",
+      "ja": "天内 昭吾",
       "en": "Shogo AMANAI"
     },
     "thesis": {
@@ -231,7 +315,7 @@
     "year": "2021",
     "type": "bachelor",
     "name": {
-      "ja": "工藤悠仁",
+      "ja": "工藤 悠仁",
       "en": "Yuto KUDO"
     },
     "thesis": {
@@ -243,7 +327,7 @@
     "year": "2021",
     "type": "bachelor",
     "name": {
-      "ja": "栗田蒼平",
+      "ja": "栗田 蒼平",
       "en": "Sohei KURITA"
     },
     "thesis": {
@@ -255,7 +339,7 @@
     "year": "2021",
     "type": "bachelor",
     "name": {
-      "ja": "小林北斗",
+      "ja": "小林 北斗",
       "en": "Hokuto KOBAYASHI"
     },
     "thesis": {
@@ -267,7 +351,7 @@
     "year": "2021",
     "type": "bachelor",
     "name": {
-      "ja": "森田大暉",
+      "ja": "森田 大暉",
       "en": "Daiki MORITA"
     },
     "thesis": {

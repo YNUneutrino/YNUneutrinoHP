@@ -1,3 +1,6 @@
 *~
 thesis/*.pdf
 .DS_Store
+
+# WAGASCI wiki (not part of this repository)
+WAGASCI/
